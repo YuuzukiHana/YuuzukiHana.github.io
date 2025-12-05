@@ -1,0 +1,21 @@
+/* 设置背景图 */
+body {
+  background: url('/img/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #000; /* 黑色底 */
+}
+
+/* 让所有卡片变黑、变半透明、带红边框 */
+#recent-posts > .recent-post-item,
+#aside-content .card-widget,
+#footer {
+  background: rgba(0, 0, 0, 0.6) !important; /* 60%透明度的黑 */
+  backdrop-filter: blur(10px); /* 磨砂玻璃 */
+  border: 1px solid rgba(255, 69, 0, 0.5); /* 橙红色边框 */
+  color: #fff !important; /* 白字 */
+}
+
+/* 强制文字变白，防止看不清 */
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #eee;
+}

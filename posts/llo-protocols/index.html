@@ -1,0 +1,1798 @@
+<!DOCTYPE html><html lang="en" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>protocols | VesperLuna</title><meta name="author" content="Yuuzuki Hanashiro"><meta name="copyright" content="Yuuzuki Hanashiro"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="Strain CultivationProtocol ID: P-LLO-01Prepared by: TDYReviewed by: TDYVersion: 2026-10-02Status: Draft   1. Saccharomyces cerevisiae1.1 YPD Medium   Component Amount for 1 L    Yeast extract 10 g   P">
+<meta property="og:type" content="article">
+<meta property="og:title" content="protocols">
+<meta property="og:url" content="https://yuuzukihana.github.io/posts/llo-protocols/index.html">
+<meta property="og:site_name" content="VesperLuna">
+<meta property="og:description" content="Strain CultivationProtocol ID: P-LLO-01Prepared by: TDYReviewed by: TDYVersion: 2026-10-02Status: Draft   1. Saccharomyces cerevisiae1.1 YPD Medium   Component Amount for 1 L    Yeast extract 10 g   P">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://yuuzukihana.github.io/img/avatar.jpg">
+<meta property="article:published_time" content="2026-10-03T09:19:39.141Z">
+<meta property="article:modified_time" content="2026-10-03T09:28:06.420Z">
+<meta property="article:author" content="Yuuzuki Hanashiro">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://yuuzukihana.github.io/img/avatar.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "protocols",
+  "url": "https://yuuzukihana.github.io/posts/llo-protocols/",
+  "image": "https://yuuzukihana.github.io/img/avatar.jpg",
+  "datePublished": "2026-10-03T09:19:39.141Z",
+  "dateModified": "2026-10-03T09:28:06.420Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Yuuzuki Hanashiro",
+      "url": "https://yuuzukihana.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://yuuzukihana.github.io/posts/llo-protocols/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"No results found for: ${query}","hits_stats":"${hits} articles found"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'protocols',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">VesperLuna</span></a><a class="nav-page-title" href="/"><span class="site-name">protocols</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">protocols</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2026-10-03T09:19:39.141Z" title="Created 2026-10-03 17:19:39">2026-10-03</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2026-10-03T09:28:06.420Z" title="Updated 2026-10-03 17:28:06">2026-10-03</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="Strain-Cultivation"><a href="#Strain-Cultivation" class="headerlink" title="Strain Cultivation"></a>Strain Cultivation</h2><p>Protocol ID: P-LLO-01<br>Prepared by: TDY<br>Reviewed by: TDY<br>Version: 2026-10-02<br>Status: Draft  </p>
+<h3 id="1-Saccharomyces-cerevisiae"><a href="#1-Saccharomyces-cerevisiae" class="headerlink" title="1. Saccharomyces cerevisiae"></a>1. Saccharomyces cerevisiae</h3><h4 id="1-1-YPD-Medium"><a href="#1-1-YPD-Medium" class="headerlink" title="1.1 YPD Medium"></a>1.1 YPD Medium</h4><table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount for 1 L</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Yeast extract</td>
+<td align="right">10 g</td>
+</tr>
+<tr>
+<td>Peptone</td>
+<td align="right">20 g</td>
+</tr>
+<tr>
+<td>Glucose</td>
+<td align="right">20 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">To 1 L</td>
+</tr>
+</tbody></table>
+<h4 id="1-2-SD-Ura-YPD-Medium"><a href="#1-2-SD-Ura-YPD-Medium" class="headerlink" title="1.2 SD-Ura-YPD Medium"></a>1.2 SD-Ura-YPD Medium</h4><table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SD-Ura powder</td>
+<td align="right">8 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">950 mL</td>
+</tr>
+<tr>
+<td>Sterile 40% glucose</td>
+<td align="right">50 mL</td>
+</tr>
+<tr>
+<td>Agar, for solid medium</td>
+<td align="right">20 g</td>
+</tr>
+</tbody></table>
+<h4 id="1-3-SD-Ura-YPG-Medium"><a href="#1-3-SD-Ura-YPG-Medium" class="headerlink" title="1.3 SD-Ura-YPG Medium"></a>1.3 SD-Ura-YPG Medium</h4><table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SD-Ura powder</td>
+<td align="right">8 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">950 mL</td>
+</tr>
+<tr>
+<td>Sterile 40% raffinose and galactose solution</td>
+<td align="right">50 mL</td>
+</tr>
+<tr>
+<td>Agar, for solid medium</td>
+<td align="right">20 g</td>
+</tr>
+</tbody></table>
+<h4 id="1-4-SD-Ura-2-Raffinose-Medium-Without-Glucose"><a href="#1-4-SD-Ura-2-Raffinose-Medium-Without-Glucose" class="headerlink" title="1.4 SD-Ura + 2% Raffinose Medium Without Glucose"></a>1.4 SD-Ura + 2% Raffinose Medium Without Glucose</h4><table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SD-Ura powder</td>
+<td align="right">8 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">950 mL</td>
+</tr>
+<tr>
+<td>Sterile 40% raffinose</td>
+<td align="right">50 mL</td>
+</tr>
+<tr>
+<td>Agar, for solid medium</td>
+<td align="right">20 g</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>Note: SD-Ura refers to Solarbio Cat. No. S0620. When solid medium is required, add agar to a final concentration of 2% (20 g&#x2F;L).</p>
+</blockquote>
+<h3 id="2-Tetrahymena"><a href="#2-Tetrahymena" class="headerlink" title="2. Tetrahymena"></a>2. Tetrahymena</h3><h4 id="2-1-SPP-Medium"><a href="#2-1-SPP-Medium" class="headerlink" title="2.1 SPP Medium"></a>2.1 SPP Medium</h4><table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount for 1 L</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Yeast extract</td>
+<td align="right">10 g</td>
+</tr>
+<tr>
+<td>Peptone</td>
+<td align="right">1 g</td>
+</tr>
+<tr>
+<td>Glucose</td>
+<td align="right">2 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">To 1 L</td>
+</tr>
+</tbody></table>
+<h3 id="3-Escherichia-coli"><a href="#3-Escherichia-coli" class="headerlink" title="3. Escherichia coli"></a>3. Escherichia coli</h3><h4 id="3-1-LB-Medium"><a href="#3-1-LB-Medium" class="headerlink" title="3.1 LB Medium"></a>3.1 LB Medium</h4><table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount for 1 L</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Tryptone</td>
+<td align="right">10 g</td>
+</tr>
+<tr>
+<td>Yeast extract</td>
+<td align="right">5 g</td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td align="right">10 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">To 1 L</td>
+</tr>
+<tr>
+<td>Agar, for solid medium</td>
+<td align="right">15 g</td>
+</tr>
+</tbody></table>
+<p>For solid medium, add agar before sterilization. Prepare SOC medium according to the laboratory’s established formulation when it is required for bacterial recovery.</p>
+<hr>
+<h2 id="Protein-Expression-and-Analysis"><a href="#Protein-Expression-and-Analysis" class="headerlink" title="Protein Expression and Analysis"></a>Protein Expression and Analysis</h2><p>Protocol ID: P-LLO-02<br>Prepared by: TDY<br>Reviewed by: TDY<br>Version: 2026-10-02<br>Status: Draft<br>Related results: Western blot of LLO  </p>
+<h3 id="Purpose"><a href="#Purpose" class="headerlink" title="Purpose"></a>Purpose</h3><p>To induce LLO expression in yeast, extract total yeast protein, determine protein concentration, and detect the target protein by western blotting.</p>
+<h3 id="1-Protein-Expression-Induction"><a href="#1-Protein-Expression-Induction" class="headerlink" title="1. Protein Expression Induction"></a>1. Protein Expression Induction</h3><ol>
+<li>Transfer 1 mL of the culture into 10 mL of fresh SD-Ura + 2% raffinose medium without glucose.</li>
+<li>Incubate for 1 day.</li>
+<li>Transfer 1 mL of the culture into 10 mL of fresh SD-Ura-YPG medium.</li>
+<li>Incubate for 1 day.</li>
+<li>Harvest the yeast and proceed with downstream testing.</li>
+</ol>
+<h3 id="2-Protein-Extraction"><a href="#2-Protein-Extraction" class="headerlink" title="2. Protein Extraction"></a>2. Protein Extraction</h3><p>Use the BestBio Yeast Protein Extraction Kit, Cat. No. BB-319817-50T.[1]</p>
+<h4 id="2-1-Preparation-of-Extraction-Buffer"><a href="#2-1-Preparation-of-Extraction-Buffer" class="headerlink" title="2.1 Preparation of Extraction Buffer"></a>2.1 Preparation of Extraction Buffer</h4><p>Add 2 μL of protease inhibitor mixture to every 500 μL of yeast protein extraction buffer B. Mix thoroughly and keep the buffer on ice until use.</p>
+<h4 id="2-2-Extraction-Procedure"><a href="#2-2-Extraction-Procedure" class="headerlink" title="2.2 Extraction Procedure"></a>2.2 Extraction Procedure</h4><ol>
+<li>Harvest the yeast culture by centrifugation at 2,500 × g for 5–10 min at 4°C.</li>
+<li>Carefully remove the supernatant while removing as much culture medium as possible. Retain the yeast pellet.</li>
+<li>Wash the yeast pellet twice with cold PBS. Remove the supernatant completely after each wash.</li>
+<li>Resuspend the yeast pellet in 300–500 μL of cold yeast protein extraction buffer A. Use 100–200 μL of buffer per original pellet volume, as appropriate.</li>
+<li>Mix thoroughly and incubate with shaking at room temperature or 37°C for 1–2 h.</li>
+<li>Centrifuge at 2,000 × g for 5–10 min at 4°C.</li>
+<li>Remove the supernatant and retain the pellet.</li>
+<li>Resuspend the pellet in 300–500 μL of cold yeast protein extraction buffer B.</li>
+<li>Mix thoroughly and incubate with gentle shaking at 2–8°C for 30–45 min.</li>
+<li>Centrifuge at 12,000 × g for 15 min at 4°C.</li>
+<li>Transfer the supernatant to a pre-chilled, clean centrifuge tube. This supernatant is the total yeast protein extract.</li>
+<li>Quantify the protein extract, aliquot it, and store it at −80°C for future use, or proceed directly to downstream experiments.</li>
+</ol>
+<h3 id="3-Protein-Quantification"><a href="#3-Protein-Quantification" class="headerlink" title="3. Protein Quantification"></a>3. Protein Quantification</h3><p>Use the Beyotime BCA Protein Assay Kit, Cat. No. P0012.[2]</p>
+<h4 id="3-1-Preparation-of-the-Protein-Standard"><a href="#3-1-Preparation-of-the-Protein-Standard" class="headerlink" title="3.1 Preparation of the Protein Standard"></a>3.1 Preparation of the Protein Standard</h4><ol>
+<li>Add 1.2 mL of protein standard solution to a tube containing 30 mg of BSA standard. Mix thoroughly to prepare a 25 mg&#x2F;mL protein standard solution.</li>
+<li>The 25 mg&#x2F;mL standard may be used immediately or stored at −20°C for long-term use.</li>
+<li>Dilute the 25 mg&#x2F;mL standard to 0.5 mg&#x2F;mL. For example, mix 20 μL of the 25 mg&#x2F;mL standard with 980 μL of diluent.</li>
+<li>Use the same solution to dilute the samples and the standards whenever possible. The standard may also be diluted with 0.9% NaCl or PBS.</li>
+<li>The diluted 0.5 mg&#x2F;mL standard may be stored at −20°C.</li>
+</ol>
+<h4 id="3-2-Preparation-of-the-BCA-Working-Solution"><a href="#3-2-Preparation-of-the-BCA-Working-Solution" class="headerlink" title="3.2 Preparation of the BCA Working Solution"></a>3.2 Preparation of the BCA Working Solution</h4><p>Prepare the BCA working solution by mixing reagent A and reagent B at a ratio of 50:1.</p>
+<p>For example, mix 5 mL of BCA reagent A with 100 μL of BCA reagent B. The working solution is stable at room temperature for up to 24 h.</p>
+<h4 id="3-3-Standard-Curve"><a href="#3-3-Standard-Curve" class="headerlink" title="3.3 Standard Curve"></a>3.3 Standard Curve</h4><p>Add the indicated volume of 0.5 mg&#x2F;mL protein standard to the standard wells. Add standard diluent to a final volume of 20 μL per well.</p>
+<table>
+<thead>
+<tr>
+<th align="right">Standard concentration (mg&#x2F;mL)</th>
+<th align="right">Standard volume (μL)</th>
+<th align="right">Standard diluent (μL)</th>
+<th align="right">Total volume (μL)</th>
+<th align="right">BCA working solution (μL)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="right">0.025</td>
+<td align="right">1</td>
+<td align="right">19</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="right">0.050</td>
+<td align="right">2</td>
+<td align="right">18</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="right">0.100</td>
+<td align="right">4</td>
+<td align="right">16</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="right">0.200</td>
+<td align="right">8</td>
+<td align="right">12</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="right">0.300</td>
+<td align="right">12</td>
+<td align="right">8</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="right">0.400</td>
+<td align="right">16</td>
+<td align="right">4</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="right">0.500</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td align="right">20</td>
+<td align="right">200</td>
+</tr>
+</tbody></table>
+<h4 id="3-4-Sample-Loading-and-Measurement"><a href="#3-4-Sample-Loading-and-Measurement" class="headerlink" title="3.4 Sample Loading and Measurement"></a>3.4 Sample Loading and Measurement</h4><ol>
+<li>Add an appropriate volume of each protein sample to the sample wells.</li>
+<li>If the sample volume is less than 20 μL, add standard diluent to bring the total sample volume to 20 μL.</li>
+<li>Record the sample volume used for each well.</li>
+<li>Add 200 μL of BCA working solution to each well.</li>
+<li>Incubate at 37°C for 20–30 min.</li>
+<li>Alternatively, incubate at room temperature for 2 h or at 60°C for 30 min.</li>
+<li>Measure the absorbance at 562 nm using a microplate reader. Measurements may also be taken at wavelengths between 540 and 595 nm.</li>
+<li>Calculate the protein concentration from the standard curve and the sample volume used.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Sample ID</th>
+<th align="right">Sample volume (μL)</th>
+<th align="right">Standard diluent (μL)</th>
+<th align="right">Total sample volume (μL)</th>
+<th align="right">BCA working solution (μL)</th>
+<th>Incubation condition</th>
+<th align="right">A562</th>
+<th>Calculated concentration</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">20</td>
+<td align="right">200</td>
+<td>37°C, 20–30 min</td>
+<td align="right"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">20</td>
+<td align="right">200</td>
+<td>37°C, 20–30 min</td>
+<td align="right"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">20</td>
+<td align="right">200</td>
+<td>37°C, 20–30 min</td>
+<td align="right"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="4-Western-Blotting"><a href="#4-Western-Blotting" class="headerlink" title="4. Western Blotting"></a>4. Western Blotting</h3><h4 id="4-1-Materials-and-Equipment"><a href="#4-1-Materials-and-Equipment" class="headerlink" title="4.1 Materials and Equipment"></a>4.1 Materials and Equipment</h4><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Specification or source</th>
+<th>Role or note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ultrapure water</td>
+<td>ddH₂O</td>
+<td></td>
+</tr>
+<tr>
+<td>Precast protein gel</td>
+<td>10% HEPES gel, Huaxingbio HX1036-10</td>
+<td>Includes electrophoresis buffer</td>
+</tr>
+<tr>
+<td>SDS-PAGE loading buffer</td>
+<td>Coolaber SL11703</td>
+<td></td>
+</tr>
+<tr>
+<td>Prestained protein molecular weight marker</td>
+<td>Thermo Fisher 26617</td>
+<td></td>
+</tr>
+<tr>
+<td>Wet transfer buffer</td>
+<td>LabLead Z0202M</td>
+<td></td>
+</tr>
+<tr>
+<td>TBST</td>
+<td>LabLead T7209B</td>
+<td></td>
+</tr>
+<tr>
+<td>Blocking solution</td>
+<td>2.5 g skimmed milk powder in 500 mL TBST</td>
+<td></td>
+</tr>
+<tr>
+<td>PVDF membrane</td>
+<td>Beyotime FFP70</td>
+<td></td>
+</tr>
+<tr>
+<td>Chemiluminescence detection reagent</td>
+<td>Millipore WBKLS0500</td>
+<td></td>
+</tr>
+<tr>
+<td>Chemiluminescence imaging system</td>
+<td>Tanon CHEMI DOG 5200T</td>
+<td></td>
+</tr>
+<tr>
+<td>Filter paper, sponges, and transfer cassette</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td>Ice and ice packs</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td>Rocking platform</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td>Incubation box</td>
+<td>—</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="4-2-SDS-PAGE-Loading-and-Electrophoresis"><a href="#4-2-SDS-PAGE-Loading-and-Electrophoresis" class="headerlink" title="4.2 SDS-PAGE Loading and Electrophoresis"></a>4.2 SDS-PAGE Loading and Electrophoresis</h4><ol>
+<li>Mix each protein sample with SDS-PAGE loading buffer.</li>
+<li>Heat the samples at 95–100°C for 5–10 min.</li>
+<li>Centrifuge briefly at 12,000 rpm.</li>
+<li>Load approximately 3–4 μL of prestained protein marker.</li>
+<li>Load equal amounts of protein into the gel wells. A typical loading volume is 15–20 μL per well.</li>
+<li>Perform electrophoresis at 150 V for approximately 40–50 min.</li>
+<li>Remove the gel after electrophoresis and proceed with protein transfer.</li>
+</ol>
+<h4 id="4-3-Protein-Transfer"><a href="#4-3-Protein-Transfer" class="headerlink" title="4.3 Protein Transfer"></a>4.3 Protein Transfer</h4><ol>
+<li><p>Prepare the transfer buffer by dissolving one packet of transfer buffer powder in 700 mL of water.</p>
+</li>
+<li><p>Add 200 mL of methanol and bring the final volume to 1 L with water.</p>
+</li>
+<li><p>Pre-cool the transfer buffer to 4°C.</p>
+</li>
+<li><p>Activate the PVDF membrane in methanol for 1–2 min.</p>
+</li>
+<li><p>Equilibrate the membrane in transfer buffer.</p>
+</li>
+<li><p>Assemble the transfer sandwich in the following orientation:</p>
+<p><code>Cathode → sponge → filter paper → gel → PVDF membrane → filter paper → sponge → anode</code></p>
+</li>
+<li><p>Carefully remove air bubbles between the gel and membrane.</p>
+</li>
+<li><p>Place the transfer sandwich in the transfer tank containing pre-cooled transfer buffer.</p>
+</li>
+<li><p>Transfer proteins at a constant current of 230 mA for 1.5 h.</p>
+</li>
+<li><p>Place ice packs in the transfer tank and surround the tank with ice during transfer.</p>
+</li>
+</ol>
+<h4 id="4-4-Membrane-Blocking"><a href="#4-4-Membrane-Blocking" class="headerlink" title="4.4 Membrane Blocking"></a>4.4 Membrane Blocking</h4><ol>
+<li>Prepare blocking solution by dissolving 2.5 g of skimmed milk powder in 500 mL of TBST.</li>
+<li>After transfer, place the PVDF membrane in an incubation box with the protein-facing side upward.</li>
+<li>Incubate the membrane in blocking solution at room temperature for 60 min.</li>
+<li>Agitate gently on a rocking platform at 40–60 rpm.</li>
+</ol>
+<h4 id="4-5-Primary-Antibody-Incubation"><a href="#4-5-Primary-Antibody-Incubation" class="headerlink" title="4.5 Primary Antibody Incubation"></a>4.5 Primary Antibody Incubation</h4><ol>
+<li>Rinse the membrane once with TBST for 5 min on a rocking platform.</li>
+<li>Cut the membrane according to the expected molecular-weight range of the target protein.</li>
+<li>Dilute the primary antibody in blocking solution.</li>
+<li>Use a general working dilution of 1:1,000. Prepare tag-specific antibodies at approximately 1:2,500 unless otherwise specified.</li>
+<li>Incubate the membrane with the primary antibody at 4°C overnight.</li>
+</ol>
+<h4 id="4-6-Secondary-Antibody-Incubation"><a href="#4-6-Secondary-Antibody-Incubation" class="headerlink" title="4.6 Secondary Antibody Incubation"></a>4.6 Secondary Antibody Incubation</h4><ol>
+<li>Remove and retain the primary antibody solution for possible reuse. Retained primary antibody may be reused up to three times or for one week.</li>
+<li>Wash the membrane three times with TBST at room temperature. Each wash should last 5 min with agitation at 40–60 rpm.</li>
+<li>Dilute the appropriate HRP-conjugated secondary antibody in blocking solution at approximately 1:2,500.</li>
+<li>Incubate the membrane with the secondary antibody for 1 h at room temperature with gentle agitation and protection from light.</li>
+<li>Remove the secondary antibody solution. Do not retain the secondary antibody solution.</li>
+</ol>
+<h4 id="4-7-Chemiluminescence-Detection"><a href="#4-7-Chemiluminescence-Detection" class="headerlink" title="4.7 Chemiluminescence Detection"></a>4.7 Chemiluminescence Detection</h4><ol>
+<li>Wash the membrane three times with TBST at room temperature. Each wash should last 5 min.</li>
+<li>During the final washing steps, start the chemiluminescence imaging system and adjust the imaging parameters.</li>
+<li>Incubate the membrane with the Millipore WBKLS0500 chemiluminescence detection reagent.</li>
+<li>Use an exposure time between 0.5 and 2 s to capture the signal.</li>
+</ol>
+<h4 id="4-8-Antibodies-Used"><a href="#4-8-Antibodies-Used" class="headerlink" title="4.8 Antibodies Used"></a>4.8 Antibodies Used</h4><table>
+<thead>
+<tr>
+<th>Antibody</th>
+<th>Source or catalog number</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Mouse anti-GAPDH monoclonal antibody</td>
+<td>Proteintech 60004-1-IG-100UL</td>
+</tr>
+<tr>
+<td>Mouse anti-FLAG monoclonal antibody</td>
+<td>Proteintech 66008-4-IG-100UL</td>
+</tr>
+<tr>
+<td>Mouse anti-FLAG monoclonal antibody</td>
+<td>Macgene IT001P</td>
+</tr>
+<tr>
+<td>Mouse anti-His-tag monoclonal antibody</td>
+<td>Proteintech 66005-1-IG-100UL</td>
+</tr>
+<tr>
+<td>Mouse anti-HA-tag monoclonal antibody</td>
+<td>Proteintech 66006-2-IG-100UL</td>
+</tr>
+<tr>
+<td>HRP-goat anti-mouse recombinant secondary antibody</td>
+<td>Proteintech RGAM001-100UL</td>
+</tr>
+</tbody></table>
+<h3 id="References"><a href="#References" class="headerlink" title="References"></a>References</h3><p>[1] BestBio. Yeast Protein Extraction Kit [Internet]. [cited 2026-10-01]. Available from: <a target="_blank" rel="noopener" href="https://www.bestbio.com.cn/product/BB-319817.html">https://www.bestbio.com.cn/product/BB-319817.html</a></p>
+<p>[2] Beyotime. BCA Protein Assay Kit [Internet]. [cited 2026-10-01]. Available from: <a target="_blank" rel="noopener" href="https://www.beyotime.com/Manual/P0012%20BCA%E8%9B%8B%E7%99%BD%E6%B5%93%E5%BA%A6%E6%B5%8B%E5%AE%9A%E8%AF%95%E5%89%82%E7%9B%92.pdf">https://www.beyotime.com/Manual/P0012%20BCA%E8%9B%8B%E7%99%BD%E6%B5%93%E5%BA%A6%E6%B5%8B%E5%AE%9A%E8%AF%95%E5%89%82%E7%9B%92.pdf</a></p>
+<hr>
+<h2 id="Tetrahymena-Co-incubation"><a href="#Tetrahymena-Co-incubation" class="headerlink" title="Tetrahymena Co-incubation"></a>Tetrahymena Co-incubation</h2><p>Protocol ID: P-LLO-03<br>Prepared by: TDY<br>Reviewed by: TDY<br>Version: 2026-10-02<br>Status: Draft<br>Related results: Tetrahymena mortality assay; Tetrahymena ACP activity assay  </p>
+<h3 id="Materials"><a href="#Materials" class="headerlink" title="Materials"></a>Materials</h3><h4 id="Biological-Materials"><a href="#Biological-Materials" class="headerlink" title="Biological Materials"></a>Biological Materials</h4><ul>
+<li>Stationary-phase Tetrahymena cultures</li>
+<li>Stationary-phase yeast expressing LLO</li>
+<li>Stationary-phase wild-type yeast</li>
+</ul>
+<h4 id="Reagents"><a href="#Reagents" class="headerlink" title="Reagents"></a>Reagents</h4><ul>
+<li>SPP medium</li>
+<li>Sterile 10 mM Tris-HCl buffer, pH 7.4–7.5</li>
+<li>Trypan blue solution</li>
+</ul>
+<h3 id="Part-I-Starvation-of-Tetrahymena"><a href="#Part-I-Starvation-of-Tetrahymena" class="headerlink" title="Part I. Starvation of Tetrahymena"></a>Part I. Starvation of Tetrahymena</h3><h4 id="1-Collection-of-Tetrahymena"><a href="#1-Collection-of-Tetrahymena" class="headerlink" title="1. Collection of Tetrahymena"></a>1. Collection of Tetrahymena</h4><ol>
+<li>Gently mix the Tetrahymena culture to obtain a homogeneous suspension.</li>
+<li>Transfer the required volume into sterile centrifuge tubes.</li>
+<li>Balance the centrifuge tubes carefully.</li>
+<li>Centrifuge at 1,100 × g for 2–3 min at room temperature.</li>
+<li>Carefully remove the SPP supernatant without disturbing the cell pellet.</li>
+<li>Avoid excessive centrifugation speed or prolonged centrifugation, as either may cause cell damage or lysis.</li>
+</ol>
+<h4 id="2-Washing-of-Tetrahymena"><a href="#2-Washing-of-Tetrahymena" class="headerlink" title="2. Washing of Tetrahymena"></a>2. Washing of Tetrahymena</h4><ol>
+<li>Add sterile 10 mM Tris-HCl buffer, pH 7.4–7.5, at a volume equal to the original culture volume.</li>
+<li>Gently resuspend the pellet by slow pipetting.</li>
+<li>Avoid vigorous pipetting, vortexing, and foaming.</li>
+<li>Centrifuge at 1,100 × g for 2–3 min at room temperature.</li>
+<li>Carefully remove the supernatant.</li>
+<li>Repeat the washing procedure for a total of three washes.</li>
+<li>Resuspend the final Tetrahymena pellet in sterile 10 mM Tris-HCl buffer.</li>
+</ol>
+<h4 id="3-Starvation-Incubation"><a href="#3-Starvation-Incubation" class="headerlink" title="3. Starvation Incubation"></a>3. Starvation Incubation</h4><ol>
+<li>Transfer the washed Tetrahymena suspension into a sterile culture tube or bottle.</li>
+<li>Leave sufficient headspace for gas exchange.</li>
+<li>Keep the container loosely capped.</li>
+<li>Incubate the washed cells at 30°C for 12 h.</li>
+</ol>
+<p>The starvation period is intended to reduce pre-existing food vacuoles and improve subsequent yeast uptake.</p>
+<h3 id="Part-II-Preparation-of-Yeast-Cultures"><a href="#Part-II-Preparation-of-Yeast-Cultures" class="headerlink" title="Part II. Preparation of Yeast Cultures"></a>Part II. Preparation of Yeast Cultures</h3><h4 id="4-Preparation-of-the-Yeast-Groups"><a href="#4-Preparation-of-the-Yeast-Groups" class="headerlink" title="4. Preparation of the Yeast Groups"></a>4. Preparation of the Yeast Groups</h4><p>Prepare the following stationary-phase yeast cultures:</p>
+<ul>
+<li>Yeast expressing LLO</li>
+<li>Wild-type yeast</li>
+</ul>
+<p>Dilute the yeast cultures with liquid medium to approximately the intended cell concentration. Gently resuspend each yeast culture immediately before use.</p>
+<h3 id="Part-III-Co-incubation-of-Tetrahymena-with-Yeast"><a href="#Part-III-Co-incubation-of-Tetrahymena-with-Yeast" class="headerlink" title="Part III. Co-incubation of Tetrahymena with Yeast"></a>Part III. Co-incubation of Tetrahymena with Yeast</h3><h4 id="5-Distribution-of-Cultures"><a href="#5-Distribution-of-Cultures" class="headerlink" title="5. Distribution of Cultures"></a>5. Distribution of Cultures</h4><p>Prepare the following groups. Each group has a final volume of 12 mL.</p>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Culture condition</th>
+<th align="right">Tetrahymena culture</th>
+<th align="right">Yeast culture</th>
+<th align="right">Final volume</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Group 1</td>
+<td>Tetrahymena alone</td>
+<td align="right">12 mL</td>
+<td align="right">0 mL</td>
+<td align="right">12 mL</td>
+</tr>
+<tr>
+<td>Group 2</td>
+<td>Tetrahymena with wild-type yeast</td>
+<td align="right">6 mL</td>
+<td align="right">6 mL wild-type yeast</td>
+<td align="right">12 mL</td>
+</tr>
+<tr>
+<td>Group 3</td>
+<td>Tetrahymena with LLO-expressing yeast</td>
+<td align="right">6 mL</td>
+<td align="right">6 mL LLO-expressing yeast</td>
+<td align="right">12 mL</td>
+</tr>
+</tbody></table>
+<ol>
+<li>Label the tubes according to group.</li>
+<li>Add the indicated culture volumes.</li>
+<li>Gently mix each tube by slowly inverting it several times.</li>
+</ol>
+<blockquote>
+<p>Source consistency note: The source DOCX uses “LLO−SP” in one group label, while the later experimental-group table refers to LLO-expressing yeast. Confirm whether the LLO strain used in the experiment contains or lacks the signal peptide before starting the experiment.</p>
+</blockquote>
+<h4 id="6-Co-incubation"><a href="#6-Co-incubation" class="headerlink" title="6. Co-incubation"></a>6. Co-incubation</h4><ol>
+<li>Keep the tube caps loose to allow gas exchange.</li>
+<li>Incubate all groups at 30°C for 24 h.</li>
+<li>Avoid opening the tubes unnecessarily during incubation.</li>
+</ol>
+<h3 id="Part-IV-Trypan-Blue-Staining-and-Hemocytometer-Counting"><a href="#Part-IV-Trypan-Blue-Staining-and-Hemocytometer-Counting" class="headerlink" title="Part IV. Trypan Blue Staining and Hemocytometer Counting"></a>Part IV. Trypan Blue Staining and Hemocytometer Counting</h3><h4 id="7-Light-Microscopy"><a href="#7-Light-Microscopy" class="headerlink" title="7. Light Microscopy"></a>7. Light Microscopy</h4><ol>
+<li><p>Gently mix each 24-h co-incubation culture.</p>
+</li>
+<li><p>Mix the Tetrahymena sample with trypan blue at a 1:1 ratio without creating bubbles.</p>
+</li>
+<li><p>Load the stained sample into a clean hemocytometer with the coverslip in place.</p>
+</li>
+<li><p>Examine the hemocytometer under a light microscope.</p>
+</li>
+<li><p>Count the Tetrahymena cells in the designated counting areas.</p>
+</li>
+<li><p>Record unstained and stained cells separately:</p>
+<ul>
+<li>Unstained, structurally intact cells: viable cells</li>
+<li>Blue-stained or visibly damaged cells: non-viable or damaged cells</li>
+</ul>
+</li>
+<li><p>Avoid counting yeast cells as Tetrahymena.</p>
+</li>
+<li><p>Use the same counting pattern for all samples.</p>
+</li>
+<li><p>Record the cell counts for each group.</p>
+</li>
+</ol>
+<h4 id="8-Calculation-of-Tetrahymena-Viability"><a href="#8-Calculation-of-Tetrahymena-Viability" class="headerlink" title="8. Calculation of Tetrahymena Viability"></a>8. Calculation of Tetrahymena Viability</h4><p>Calculate viability using:</p>
+<p>$$<br>\text{Viability (%)} &#x3D;<br>\frac{N_{\text{unstained}}}<br>{N_{\text{unstained}} + N_{\text{blue or damaged}}}<br>\times 100%<br>$$</p>
+<p>Compare the following parameters among the groups:</p>
+<ul>
+<li>Remaining Tetrahymena concentration</li>
+<li>Number of viable cells</li>
+<li>Number of stained or damaged cells</li>
+<li>Percentage of viable cells</li>
+<li>Cell morphology</li>
+<li>Motility</li>
+</ul>
+<h3 id="Part-V-Partial-Lysis-of-Tetrahymena"><a href="#Part-V-Partial-Lysis-of-Tetrahymena" class="headerlink" title="Part V. Partial Lysis of Tetrahymena"></a>Part V. Partial Lysis of Tetrahymena</h3><h4 id="1-Preparation-of-Tetrahymena-Imaging-Buffer"><a href="#1-Preparation-of-Tetrahymena-Imaging-Buffer" class="headerlink" title="1. Preparation of Tetrahymena Imaging Buffer"></a>1. Preparation of Tetrahymena Imaging Buffer</h4><p>Tetrahymena imaging buffer (TIB) was adapted from the extracellular solution used for electrophysiological studies of Tetrahymena by Hennessey and Kung (1984).[3]</p>
+<p>Prepare 1 L of TIB as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Final concentration</th>
+<th align="right">Amount required for 1 L</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Sucrose</td>
+<td align="right">100 mM</td>
+<td align="right">34.23 g</td>
+</tr>
+<tr>
+<td>HEPES</td>
+<td align="right">10 mM</td>
+<td align="right">10 mL of 1 M HEPES stock, pH 8.0</td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td align="right">50 mM</td>
+<td align="right">2.92 g</td>
+</tr>
+<tr>
+<td>KCl</td>
+<td align="right">5 mM</td>
+<td align="right">0.373 g</td>
+</tr>
+<tr>
+<td>CaCl₂·2H₂O</td>
+<td align="right">1 mM</td>
+<td align="right">0.147 g</td>
+</tr>
+<tr>
+<td>MgCl₂·6H₂O</td>
+<td align="right">1 mM</td>
+<td align="right">0.203 g</td>
+</tr>
+</tbody></table>
+<ol>
+<li>Add the components to approximately 800–900 mL of ultrapure water.</li>
+<li>Mix until all components have dissolved.</li>
+<li>Adjust the pH to 7.2 ± 0.1.</li>
+<li>Bring the final volume to 1 L with ultrapure water.</li>
+<li>Mix thoroughly.</li>
+<li>Pre-cool the TIB to 4°C before cell washing and lysis.</li>
+<li>Keep the TIB on ice before use.</li>
+</ol>
+<h4 id="2-Preparation-of-0-1-Triton-X-100-in-TIB"><a href="#2-Preparation-of-0-1-Triton-X-100-in-TIB" class="headerlink" title="2. Preparation of 0.1% Triton X-100 in TIB"></a>2. Preparation of 0.1% Triton X-100 in TIB</h4><p>Prepare the Triton-containing lysis solution before starting the experiment.</p>
+<p>For 10 mL of 0.1% Triton X-100&#x2F;TIB:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Triton X-100</td>
+<td align="right">10 μL</td>
+</tr>
+<tr>
+<td>TIB</td>
+<td align="right">To 10 mL</td>
+</tr>
+</tbody></table>
+<ol>
+<li>Mix thoroughly.</li>
+<li>Pre-cool the solution to 4°C.</li>
+<li>Keep it on ice before use.</li>
+<li>Do not add concentrated Triton X-100 directly to the cell pellet.</li>
+<li>Do not add EDTA or phosphatase inhibitors.</li>
+</ol>
+<h4 id="3-Experimental-Groups-and-Controls"><a href="#3-Experimental-Groups-and-Controls" class="headerlink" title="3. Experimental Groups and Controls"></a>3. Experimental Groups and Controls</h4><table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Experimental condition</th>
+<th>Fraction analyzed</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Group 1</td>
+<td>Tetrahymena alone</td>
+<td>G1S20 and G1P20</td>
+</tr>
+<tr>
+<td>Group 2</td>
+<td>Tetrahymena co-incubated with wild-type yeast</td>
+<td>G2S20 and G2P20</td>
+</tr>
+<tr>
+<td>Group 3</td>
+<td>Tetrahymena co-incubated with LLO-expressing yeast</td>
+<td>G3S20 and G3P20</td>
+</tr>
+</tbody></table>
+<p>Use the corresponding co-incubated cultures prepared above.</p>
+<h4 id="4-Low-Speed-Collection-of-Tetrahymena"><a href="#4-Low-Speed-Collection-of-Tetrahymena" class="headerlink" title="4. Low-Speed Collection of Tetrahymena"></a>4. Low-Speed Collection of Tetrahymena</h4><ol>
+<li>Transfer the co-incubation sample to a pre-chilled 50 mL centrifuge tube.</li>
+<li>Immediately place the sample on ice.</li>
+<li>Centrifuge at 100 × g for 60 s at 4°C.</li>
+<li>Use low brake or no brake if available.</li>
+<li>Carefully aspirate the supernatant while leaving approximately 0.5 mL above the pellet.</li>
+<li>Do not touch or disturb the pellet.</li>
+</ol>
+<h4 id="5-Washing-with-TIB"><a href="#5-Washing-with-TIB" class="headerlink" title="5. Washing with TIB"></a>5. Washing with TIB</h4><p>Perform two washes with ice-cold TIB.</p>
+<h5 id="First-Wash"><a href="#First-Wash" class="headerlink" title="First Wash"></a>First Wash</h5><ol>
+<li>Add 20 mL of ice-cold TIB to the pellet.</li>
+<li>Gently resuspend the cells with a wide-bore pipette tip.</li>
+<li>Pipette slowly approximately three times.</li>
+<li>Do not vortex.</li>
+<li>Centrifuge at 100 × g for 60 s at 4°C using low brake or no brake.</li>
+<li>Carefully remove the supernatant while leaving the pellet undisturbed.</li>
+</ol>
+<h5 id="Second-Wash"><a href="#Second-Wash" class="headerlink" title="Second Wash"></a>Second Wash</h5><ol>
+<li>Add another 20 mL of ice-cold TIB.</li>
+<li>Gently resuspend the pellet with a wide-bore pipette tip.</li>
+<li>Centrifuge again at 100 × g for 60 s at 4°C.</li>
+<li>Carefully remove the supernatant.</li>
+<li>Retain the final Tetrahymena pellet for Triton lysis.</li>
+</ol>
+<p>If necessary, inspect a small aliquot microscopically after the second wash to assess extracellular yeast carryover. Do not increase the centrifugation speed to remove residual yeast, because this may cause free yeast to co-pellet with Tetrahymena.</p>
+<h4 id="6-Resuspension-and-Triton-Lysis"><a href="#6-Resuspension-and-Triton-Lysis" class="headerlink" title="6. Resuspension and Triton Lysis"></a>6. Resuspension and Triton Lysis</h4><ol>
+<li>Use the pre-cooled 0.1% Triton X-100&#x2F;TIB solution.</li>
+<li>Remove as much residual TIB as possible without disturbing the pellet. The remaining supernatant should be less than 0.5 mL.</li>
+<li>Add exactly 1.00 mL of pre-cooled 0.1% Triton X-100&#x2F;TIB directly to the pellet.</li>
+<li>Keep the tube on ice.</li>
+<li>Gently resuspend the pellet using a wide-bore pipette tip.</li>
+<li>Do not vortex.</li>
+<li>Incubate the suspension on ice for 2 min.</li>
+<li>After 2 min, immediately add 10 mL of TIB to dilute the lysate and stop lysis.</li>
+</ol>
+<h4 id="7-Separation-of-S20-and-P20-Fractions"><a href="#7-Separation-of-S20-and-P20-Fractions" class="headerlink" title="7. Separation of S20 and P20 Fractions"></a>7. Separation of S20 and P20 Fractions</h4><ol>
+<li><p>Centrifuge at 20,000 × g for 15 min at 4°C.</p>
+</li>
+<li><p>After centrifugation, the sample contains:</p>
+<ul>
+<li>S20: supernatant</li>
+<li>P20: pellet</li>
+</ul>
+</li>
+<li><p>Process all samples consistently and avoid disturbing the P20 pellet.</p>
+</li>
+</ol>
+<h5 id="S20-Supernatant"><a href="#S20-Supernatant" class="headerlink" title="S20 Supernatant"></a>S20 Supernatant</h5><ol>
+<li>Carefully transfer the supernatant to a labeled, pre-chilled tube.</li>
+<li>Avoid contact with the pellet.</li>
+<li>Record the recovered S20 volume.</li>
+<li>Keep the S20 sample on ice.</li>
+<li>The S20 sample may be used directly as the ACP assay test solution, subject to any dilution required by the kit.</li>
+</ol>
+<h5 id="P20-Pellet"><a href="#P20-Pellet" class="headerlink" title="P20 Pellet"></a>P20 Pellet</h5><ol>
+<li>Leave the P20 pellet in the original centrifuge tube.</li>
+<li>Keep the tube on ice.</li>
+<li>Add 200 μL of ACP extraction buffer from the ACMEC biochemical ACP Activity Assay Kit and half a spoon of 0.1 mm glass beads.</li>
+<li>Vortex for 30 s.</li>
+<li>Cool on ice for 30 s.</li>
+<li>Repeat the vortexing and cooling cycle four times.</li>
+<li>Centrifuge at 10,000 × g for 1 min at 4°C.</li>
+<li>Transfer the supernatant to a new pre-chilled tube.</li>
+<li>Use this solution for the ACP activity assay.</li>
+</ol>
+<h3 id="Part-VI-ACP-Activity-Assay"><a href="#Part-VI-ACP-Activity-Assay" class="headerlink" title="Part VI. ACP Activity Assay"></a>Part VI. ACP Activity Assay</h3><h4 id="8-ACP-Activity-Assay"><a href="#8-ACP-Activity-Assay" class="headerlink" title="8. ACP Activity Assay"></a>8. ACP Activity Assay</h4><p>Use the ACMEC biochemical ACP Activity Assay Kit, Cat. No. AC10388-50T&#x2F;24S.[4]</p>
+<p>Follow the reaction setup below:</p>
+<table>
+<thead>
+<tr>
+<th>Reagent (μL)</th>
+<th align="right">G1S20</th>
+<th align="right">G1P20</th>
+<th align="right">G2S20</th>
+<th align="right">G2P20</th>
+<th align="right">G3S20</th>
+<th align="right">G3P20</th>
+<th align="right">Blank</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Sample</td>
+<td align="right">300</td>
+<td align="right">100</td>
+<td align="right">300</td>
+<td align="right">100</td>
+<td align="right">300</td>
+<td align="right">100</td>
+<td align="right">—</td>
+</tr>
+<tr>
+<td>Ultrapure water</td>
+<td align="right">—</td>
+<td align="right">200</td>
+<td align="right">—</td>
+<td align="right">200</td>
+<td align="right">—</td>
+<td align="right">200</td>
+<td align="right">300</td>
+</tr>
+<tr>
+<td>Reagent 1</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+</tr>
+<tr>
+<td>Reagent 2</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+<td align="right">150</td>
+</tr>
+<tr>
+<td>Incubation</td>
+<td align="right">37°C, 15 min</td>
+<td align="right">37°C, 15 min</td>
+<td align="right">37°C, 15 min</td>
+<td align="right">37°C, 15 min</td>
+<td align="right">37°C, 15 min</td>
+<td align="right">37°C, 15 min</td>
+<td align="right">37°C, 15 min</td>
+</tr>
+<tr>
+<td>Reagent 3</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+</tr>
+<tr>
+<td>Reagent 4</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+<td align="right">300</td>
+</tr>
+<tr>
+<td>A405 nm</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+</tbody></table>
+<ol>
+<li>Dilute each reaction to 3 mL with ultrapure water.</li>
+<li>Measure the absorbance at 405 nm using a spectrophotometer.</li>
+<li>Record the A405 value for each sample.</li>
+<li>Interpret the absorbance and calculate ACP activity according to the kit instructions.</li>
+<li>Perform an ANOVA test for statistical analysis of the data.</li>
+</ol>
+<h3 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h3><p>[1] Hennessey TM, Kung C. Slow calcium channels of the ciliate Tetrahymena. <em>Journal of Experimental Biology</em>. 1984;110:169–180.</p>
+<p>[2] ACMEC Biochemical. ACP Activity Assay Kit [Internet]. [cited 2026-10-01]. Available from: <a target="_blank" rel="noopener" href="https://www.acmec.com.cn/product/ac10388">https://www.acmec.com.cn/product/ac10388</a></p>
+<hr>
+<h2 id="Construction-of-pYES2-LLO-and-Transformation-into-Yeast"><a href="#Construction-of-pYES2-LLO-and-Transformation-into-Yeast" class="headerlink" title="Construction of pYES2-LLO and Transformation into Yeast"></a>Construction of pYES2-LLO and Transformation into Yeast</h2><p>Protocol ID: P-LLO-04<br>Prepared by: TDY<br>Reviewed by: TDY<br>Version: 2026-10-02<br>Status: Draft  </p>
+<h3 id="Purpose-1"><a href="#Purpose-1" class="headerlink" title="Purpose"></a>Purpose</h3><p>To construct the recombinant plasmid pYES2-LLO by directionally inserting the LLO DNA fragment into the BamHI&#x2F;XbaI sites of pYES2, followed by transformation of the ligation product into competent yeast cells and selection on SD-Ura agar.</p>
+<blockquote>
+<p>Before beginning, confirm that the LLO fragment does not contain internal BamHI or XbaI sites and that its orientation, start and stop codons, and reading frame are compatible with the intended pYES2 expression design.</p>
+</blockquote>
+<h3 id="Materials-1"><a href="#Materials-1" class="headerlink" title="Materials"></a>Materials</h3><h4 id="DNA-and-Enzymes"><a href="#DNA-and-Enzymes" class="headerlink" title="DNA and Enzymes"></a>DNA and Enzymes</h4><ul>
+<li>pYES2 plasmid DNA</li>
+<li>LLO plasmid DNA</li>
+<li>BamHI-HF restriction enzyme</li>
+<li>XbaI restriction enzyme</li>
+<li>10× rCutSmart™ Buffer</li>
+<li>T4 DNA Ligase, NEB M0202</li>
+<li>10× T4 DNA Ligase Buffer</li>
+<li>Nuclease-free water</li>
+</ul>
+<h4 id="DNA-Purification-and-Electrophoresis"><a href="#DNA-Purification-and-Electrophoresis" class="headerlink" title="DNA Purification and Electrophoresis"></a>DNA Purification and Electrophoresis</h4><ul>
+<li>Agarose</li>
+<li>1× TAE electrophoresis buffer</li>
+<li>DNA loading buffer</li>
+<li>DNA ladder</li>
+<li>GelRed</li>
+<li>GeneBetter Gel Extraction Kit, Cat. No. DC013-200</li>
+<li>NanoDrop spectrophotometer</li>
+<li>Agarose gel electrophoresis apparatus</li>
+<li>Gel imaging system</li>
+<li>Blue-light transilluminator, when available</li>
+</ul>
+<h4 id="Yeast-Transformation"><a href="#Yeast-Transformation" class="headerlink" title="Yeast Transformation"></a>Yeast Transformation</h4><ul>
+<li>W303 <em>Saccharomyces cerevisiae</em></li>
+<li>Beyotime Yeast Competent Cell Preparation Kit, Cat. No. D0310S</li>
+<li>YPD medium</li>
+<li>SD-Ura selective agar plates</li>
+</ul>
+<h3 id="Before-Starting"><a href="#Before-Starting" class="headerlink" title="Before Starting"></a>Before Starting</h3><ol>
+<li>Confirm the expected sizes of the pYES2 backbone and LLO insert.</li>
+<li>Confirm that the LLO fragment contains BamHI- and XbaI-compatible ends.</li>
+<li>Confirm that the LLO sequence does not contain unwanted internal BamHI or XbaI sites.</li>
+<li>Confirm that the yeast strain is compatible with URA3 selection.</li>
+<li>SD-Ura selection will not work correctly with a uracil-prototrophic strain.</li>
+</ol>
+<h3 id="Part-I-Double-Digestion-of-pYES2-and-the-LLO-Insert"><a href="#Part-I-Double-Digestion-of-pYES2-and-the-LLO-Insert" class="headerlink" title="Part I. Double Digestion of pYES2 and the LLO Insert"></a>Part I. Double Digestion of pYES2 and the LLO Insert</h3><p>Prepare separate restriction-digestion reactions for the pYES2 vector and the LLO insert.</p>
+<h4 id="1-Digestion-Reaction-Setup"><a href="#1-Digestion-Reaction-Setup" class="headerlink" title="1. Digestion Reaction Setup"></a>1. Digestion Reaction Setup</h4><p>Prepare each reaction in a final volume of 50 μL.</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">pYES2 digestion</th>
+<th align="right">LLO digestion</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>pYES2 DNA</td>
+<td align="right">Approximately 1 μg</td>
+<td align="right">—</td>
+</tr>
+<tr>
+<td>LLO DNA</td>
+<td align="right">—</td>
+<td align="right">Approximately 1 μg</td>
+</tr>
+<tr>
+<td>10× rCutSmart™ Buffer</td>
+<td align="right">5 μL</td>
+<td align="right">5 μL</td>
+</tr>
+<tr>
+<td>BamHI-HF</td>
+<td align="right">1 μL, approximately 20 U</td>
+<td align="right">1 μL, approximately 20 U</td>
+</tr>
+<tr>
+<td>XbaI</td>
+<td align="right">1 μL, approximately 20 U</td>
+<td align="right">1 μL, approximately 20 U</td>
+</tr>
+<tr>
+<td>Nuclease-free water</td>
+<td align="right">To 50 μL</td>
+<td align="right">To 50 μL</td>
+</tr>
+<tr>
+<td>Total volume</td>
+<td align="right">50 μL</td>
+<td align="right">50 μL</td>
+</tr>
+</tbody></table>
+<ol>
+<li>Thaw the buffer and DNA samples and mix thoroughly.</li>
+<li>Assemble the reactions on ice.</li>
+<li>Add the restriction enzymes last.</li>
+<li>Mix gently by pipetting. Do not vortex the enzymes.</li>
+<li>Briefly centrifuge the tubes to collect the liquid at the bottom.</li>
+<li>Incubate at 37°C for 15–60 min.</li>
+<li>Keep the digested DNA on ice until gel electrophoresis.</li>
+<li>Run a small aliquot of undigested pYES2 alongside the digested sample when needed to assess digestion efficiency.</li>
+</ol>
+<h3 id="Part-II-Agarose-Gel-Electrophoresis-and-DNA-Recovery"><a href="#Part-II-Agarose-Gel-Electrophoresis-and-DNA-Recovery" class="headerlink" title="Part II. Agarose Gel Electrophoresis and DNA Recovery"></a>Part II. Agarose Gel Electrophoresis and DNA Recovery</h3><ol>
+<li><p>Prepare a 0.5% agarose gel using 1× TAE buffer and GelRed.</p>
+</li>
+<li><p>Add loading dye to the digestion products.</p>
+</li>
+<li><p>Load the samples together with a suitable DNA ladder.</p>
+</li>
+<li><p>Run the gel until the linearized pYES2 backbone and LLO insert can be distinguished clearly.</p>
+</li>
+<li><p>Visualize the DNA with a blue-light transilluminator whenever possible.</p>
+</li>
+<li><p>If UV illumination is used, minimize exposure time to reduce DNA damage.</p>
+</li>
+<li><p>Excise the following bands:</p>
+<ul>
+<li>Linearized pYES2 backbone</li>
+<li>Digested LLO insert</li>
+</ul>
+</li>
+<li><p>Minimize the amount of excess agarose surrounding each band.</p>
+</li>
+<li><p>Purify both DNA fragments using the GeneBetter DC013-200 Gel Extraction Kit according to the manufacturer’s instructions.</p>
+</li>
+<li><p>Measure the concentration of the recovered DNA using a NanoDrop spectrophotometer.</p>
+</li>
+</ol>
+<p>A 0.5% gel is suitable for resolving large DNA fragments but is relatively fragile. If the LLO fragment is approximately 1–2 kb and the resolution is poor, use a 0.8–1.0% agarose gel.</p>
+<h3 id="Part-III-Ligation-of-the-LLO-Insert-into-pYES2"><a href="#Part-III-Ligation-of-the-LLO-Insert-into-pYES2" class="headerlink" title="Part III. Ligation of the LLO Insert into pYES2"></a>Part III. Ligation of the LLO Insert into pYES2</h3><p>Use an intended vector-to-insert molar ratio of 1:3.</p>
+<p>Calculate the required insert mass using:</p>
+<p>$$<br>m_{\text{insert}} &#x3D;<br>m_{\text{vector}}<br>\times<br>\frac{L_{\text{insert}}}{L_{\text{vector}}}<br>\times<br>\text{molar ratio}<br>$$</p>
+<p>where:</p>
+<ul>
+<li>$m_{\text{insert}}$ is the required insert mass;</li>
+<li>$m_{\text{vector}}$ is the vector mass;</li>
+<li>$L_{\text{insert}}$ is the insert length;</li>
+<li>$L_{\text{vector}}$ is the vector length;</li>
+<li>the intended molar ratio is 3 for a 1:3 vector-to-insert ratio.</li>
+</ul>
+<p>Confirm the ratio using the actual sizes and concentrations of the purified pYES2 backbone and LLO insert.</p>
+<h4 id="1-Ligation-Reaction-Setup"><a href="#1-Ligation-Reaction-Setup" class="headerlink" title="1. Ligation Reaction Setup"></a>1. Ligation Reaction Setup</h4><p>Prepare the following 20 μL reaction:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Linearized pYES2 vector</td>
+<td align="right">Approximately 72.5 ng</td>
+</tr>
+<tr>
+<td>Digested LLO insert</td>
+<td align="right">Approximately 60 ng</td>
+</tr>
+<tr>
+<td>10× T4 DNA Ligase Buffer</td>
+<td align="right">2 μL</td>
+</tr>
+<tr>
+<td>T4 DNA Ligase, NEB M0202</td>
+<td align="right">1 μL, approximately 400 U</td>
+</tr>
+<tr>
+<td>Nuclease-free water</td>
+<td align="right">To 20 μL</td>
+</tr>
+<tr>
+<td>Total volume</td>
+<td align="right">20 μL</td>
+</tr>
+</tbody></table>
+<ol>
+<li>Thaw the T4 DNA Ligase Buffer at room temperature.</li>
+<li>Mix the buffer thoroughly to ensure that all components, including ATP, are evenly distributed.</li>
+<li>Add the vector, insert, ligase buffer, and nuclease-free water to a sterile tube.</li>
+<li>Add T4 DNA ligase last.</li>
+<li>Mix gently by pipetting and briefly centrifuge.</li>
+<li>Incubate at 16°C for 12–16 h.</li>
+<li>Heat-inactivate the ligase at 65°C for 10 min.</li>
+<li>Cool the reaction on ice and briefly centrifuge before transformation.</li>
+</ol>
+<h3 id="Part-IV-Preparation-of-Yeast-Competent-Cells"><a href="#Part-IV-Preparation-of-Yeast-Competent-Cells" class="headerlink" title="Part IV. Preparation of Yeast Competent Cells"></a>Part IV. Preparation of Yeast Competent Cells</h3><ol>
+<li>Start with a fresh colony or actively growing culture of the selected yeast strain.</li>
+<li>Prepare yeast competent cells using the Beyotime Yeast Competent Cell Preparation Kit, Cat. No. D0310S.</li>
+<li>When the OD600 of the freshly cultured yeast reaches 0.4–0.6, centrifuge at 3,000 × g for 3 min at room temperature.</li>
+<li>Discard the supernatant and retain the cell pellet.</li>
+<li>Resuspend the pellet in 7 mL of Buffer A.</li>
+<li>Centrifuge again at 3,000 × g for 3 min at room temperature.</li>
+<li>Discard the supernatant and retain the pellet.</li>
+<li>Resuspend the pellet in 400 μL of Buffer B.</li>
+<li>Incubate at room temperature for 10 min.</li>
+<li>Aliquot the prepared competent cells into sterile 1.5 mL microcentrifuge tubes at 100 μL per tube.</li>
+</ol>
+<p>Prepared competent cells should ideally be used immediately. They may be stored at 4°C for up to 1 week, although transformation efficiency may decrease over time. Alternatively, add glycerol to a final concentration of 15%, mix thoroughly, and store at −80°C for up to 3 months.</p>
+<h3 id="Part-V-Transformation-of-the-Ligation-Product-into-Yeast"><a href="#Part-V-Transformation-of-the-Ligation-Product-into-Yeast" class="headerlink" title="Part V. Transformation of the Ligation Product into Yeast"></a>Part V. Transformation of the Ligation Product into Yeast</h3><ol>
+<li>Transfer an appropriate aliquot of prepared competent yeast cells into a sterile transformation tube.</li>
+<li>Mix 0.1–1 μg of plasmid DNA with 10 μL of heat-denatured carrier DNA by gentle pipetting.</li>
+<li>Add the DNA mixture to 100 μL of competent cells and gently tap to mix.</li>
+<li>Add 600 μL of Buffer C and invert gently to mix.</li>
+<li>Incubate in a 30°C water bath for 30 min.</li>
+<li>Add 70 μL of DMSO.</li>
+<li>Gently invert to mix.</li>
+<li>Incubate in a 42°C water bath for 15 min.</li>
+<li>Immediately transfer the tube to an ice bath and incubate for 3–5 min.</li>
+<li>Centrifuge at 12,000–14,000 × g for 10 s at room temperature.</li>
+<li>Discard the supernatant.</li>
+<li>Resuspend the pellet in 100 μL of Buffer A.</li>
+<li>Spread the entire suspension on an appropriate selective agar plate.</li>
+<li>Incubate the plate upside down at 30°C for 2–3 days until individual colonies appear.</li>
+</ol>
+<p>Avoid unnecessary delays after competent-cell preparation.</p>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>[1] GeneBetter. General-purpose DNA purification and recovery kit [Internet]. [cited 2026-10-01]. Available from: <a target="_blank" rel="noopener" href="https://www.gene-better.cn/index.php?m=home&c=View&a=index&aid=174">https://www.gene-better.cn/index.php?m=home&amp;c=View&amp;a=index&amp;aid=174</a></p>
+<hr>
+<h2 id="Tetrahymena-Culture-Passaging-Counting-and-Standardization"><a href="#Tetrahymena-Culture-Passaging-Counting-and-Standardization" class="headerlink" title="Tetrahymena Culture, Passaging, Counting, and Standardization"></a>Tetrahymena Culture, Passaging, Counting, and Standardization</h2><p>Protocol ID: P-LLO-05<br>Prepared by: TDY<br>Reviewed by: TDY<br>Version: 2026-10-02<br>Status: Draft  </p>
+<h3 id="1-Tetrahymena-Culture"><a href="#1-Tetrahymena-Culture" class="headerlink" title="1. Tetrahymena Culture"></a>1. Tetrahymena Culture</h3><h4 id="1-1-Purpose"><a href="#1-1-Purpose" class="headerlink" title="1.1 Purpose"></a>1.1 Purpose</h4><p>To establish and maintain Tetrahymena cultures in SPP medium and monitor culture condition, cultivation time, and cell density under consistent conditions.</p>
+<h4 id="1-2-Materials"><a href="#1-2-Materials" class="headerlink" title="1.2 Materials"></a>1.2 Materials</h4><ul>
+<li>Tetrahymena stock culture</li>
+<li>SPP medium: 10 g&#x2F;L yeast extract, 1 g&#x2F;L peptone, and 2 g&#x2F;L glucose</li>
+<li>Balance, weighing containers, mixing vessel, and volumetric measuring equipment</li>
+<li>Sterile culture vessels, pipettes, pipette tips, and sampling tubes</li>
+<li>Temperature-controlled incubation equipment</li>
+<li>Shaker, if used</li>
+<li>Light microscope, slides, coverslips, and calibrated counting chamber</li>
+<li>Culture record sheet or electronic laboratory notebook</li>
+</ul>
+<h4 id="1-3-Procedure"><a href="#1-3-Procedure" class="headerlink" title="1.3 Procedure"></a>1.3 Procedure</h4><ol>
+<li>Confirm the identity of the stock culture. Record the species, strain, source, passage number if available, and date of the previous transfer.</li>
+<li>Prepare SPP medium. For 1 L of final medium, dissolve 10 g of yeast extract, 1 g of peptone, and 2 g of glucose in purified water. Bring the final volume to 1 L.</li>
+<li>Sterilize and store the medium according to the established laboratory procedure.</li>
+<li>Record the preparation date and batch identifier.</li>
+<li>Allow the medium to reach the inoculation temperature before use.</li>
+<li>Label the culture vessel with the strain, culture identifier, passage number, medium batch, and inoculation date and time.</li>
+<li>Gently mix the source culture and examine a separate aliquot microscopically.</li>
+<li>Record cell appearance, motility, aggregation, and any unexpected organisms or material.</li>
+<li>Determine the source-culture density using the laboratory counting method.</li>
+<li>If inoculation is density-based, calculate the volume required to obtain the intended starting density in the final working volume.</li>
+<li>If a transfer ratio is used, state explicitly whether it refers to inoculum:fresh medium or inoculum:final culture volume.</li>
+<li>Aseptically add fresh SPP medium and the calculated inoculum to the labeled vessel.</li>
+<li>Include the inoculum volume when calculating the final working volume.</li>
+<li>Mix gently.</li>
+<li>Incubate under the recorded temperature and static or shaking conditions.</li>
+<li>Record the incubation start time.</li>
+<li>At each scheduled observation, gently redistribute the suspension before sampling.</li>
+<li>Examine a separate aliquot microscopically and determine cell density.</li>
+<li>Record the sampling time and volume.</li>
+<li>Follow the documented density range and passage criterion.</li>
+<li>Document every transfer to fresh medium together with the density and age of the source culture.</li>
+<li>Complete the culture record with the incubation duration, final density, observed culture condition, and identifier of any derived culture.</li>
+</ol>
+<h3 id="2-Tetrahymena-Passaging-and-Culture-Expansion"><a href="#2-Tetrahymena-Passaging-and-Culture-Expansion" class="headerlink" title="2. Tetrahymena Passaging and Culture Expansion"></a>2. Tetrahymena Passaging and Culture Expansion</h3><h4 id="2-1-Purpose"><a href="#2-1-Purpose" class="headerlink" title="2.1 Purpose"></a>2.1 Purpose</h4><p>To transfer an established Tetrahymena culture into fresh medium for routine maintenance or to obtain a larger working culture while retaining a traceable passage history.</p>
+<h4 id="2-2-Materials"><a href="#2-2-Materials" class="headerlink" title="2.2 Materials"></a>2.2 Materials</h4><ul>
+<li>Tetrahymena source culture of the documented species and strain</li>
+<li>Fresh sterile SPP medium: 10 g&#x2F;L yeast extract, 1 g&#x2F;L peptone, and 2 g&#x2F;L glucose</li>
+<li>Sterile receiving culture vessels, pipettes, pipette tips, and sampling tubes</li>
+<li>Temperature-controlled incubation equipment</li>
+<li>Shaker, if used</li>
+<li>Light microscope and calibrated counting chamber</li>
+<li>Culture and passage record sheet</li>
+</ul>
+<h4 id="2-3-Procedure"><a href="#2-3-Procedure" class="headerlink" title="2.3 Procedure"></a>2.3 Procedure</h4><ol>
+<li>Identify the source culture and specify whether the transfer is for routine passaging or expansion.</li>
+<li>Assign a separate identifier to every receiving vessel.</li>
+<li>Review the source-culture history.</li>
+<li>Examine a separate aliquot microscopically.</li>
+<li>Record the culture age, appearance, and motility before transfer.</li>
+<li>Gently mix the source culture.</li>
+<li>Determine its cell density, $C_{\text{source}}$, in cells&#x2F;mL using the same counting method used for the other cultures in the series.</li>
+<li>Define the intended final culture volume, $V_{\text{final}}$, and the intended starting density, $C_{\text{start}}$.</li>
+<li>Calculate the required source-culture volume:</li>
+</ol>
+<p>$$<br>V_{\text{source}} &#x3D;<br>\frac{C_{\text{start}} \times V_{\text{final}}}<br>{C_{\text{source}}}<br>$$</p>
+<ol start="10">
+<li>Calculate the required fresh-medium volume:</li>
+</ol>
+<p>$$<br>V_{\text{medium}} &#x3D;<br>V_{\text{final}} - V_{\text{source}}<br>$$</p>
+<ol start="11">
+<li>Check the calculation before transfer. If the calculated inoculum exceeds the final volume, dilution alone cannot produce the requested starting density. Resolve the discrepancy using the established culture plan.</li>
+<li>Dispense the calculated fresh-medium volume into each labeled receiving vessel.</li>
+<li>Gently mix the source culture immediately before withdrawing each inoculum.</li>
+<li>Transfer the calculated volume aseptically.</li>
+<li>Mix the receiving suspension gently.</li>
+<li>For routine passaging, maintain the recorded working volume and culture configuration.</li>
+<li>Link the new culture identifier to its parent and update the passage number.</li>
+<li>For expansion, distribute the planned total volume among the receiving vessels.</li>
+<li>Record the capacity, working volume, and incubation configuration of each vessel.</li>
+<li>Incubate under the recorded conditions and document the start time.</li>
+<li>Keep separate culture identifiers throughout the expansion process.</li>
+<li>At the scheduled assessment, examine the cultures and determine their density.</li>
+<li>Record whether each culture meets the documented maintenance or expansion endpoint.</li>
+<li>Calculate the cell number represented by each culture when required:</li>
+</ol>
+<p>$$<br>N_{\text{total}} &#x3D;<br>C_{\text{final}} \times V_{\text{final}}<br>$$</p>
+<p>where $C_{\text{final}}$ is in cells&#x2F;mL and $V_{\text{final}}$ is in mL.</p>
+<ol start="25">
+<li>Record whether the density measurement represents total cells or viable cells.</li>
+<li>Retain individual culture records if material from several vessels is subsequently combined.</li>
+<li>Complete the passage record with parent and daughter identifiers, transfer volumes, initial density, incubation conditions, incubation duration, and final density.</li>
+</ol>
+<h3 id="3-Tetrahymena-Cell-Counting"><a href="#3-Tetrahymena-Cell-Counting" class="headerlink" title="3. Tetrahymena Cell Counting"></a>3. Tetrahymena Cell Counting</h3><h4 id="3-1-Purpose"><a href="#3-1-Purpose" class="headerlink" title="3.1 Purpose"></a>3.1 Purpose</h4><p>To estimate the concentration of Tetrahymena cells by microscopic enumeration of a known sample volume, with correction for all sample dilution steps.</p>
+<h4 id="3-2-Materials"><a href="#3-2-Materials" class="headerlink" title="3.2 Materials"></a>3.2 Materials</h4><ul>
+<li>Tetrahymena culture with a unique sample identifier</li>
+<li>Sterile SPP medium for dilution, when used</li>
+<li>Sterile pipettes, pipette tips, and dilution tubes</li>
+<li>Calibrated counting chamber and specified coverslip</li>
+<li>Light microscope with a suitable objective</li>
+<li>Established sample preparation method for reliable enumeration of motile cells, if required</li>
+<li>Counting sheet and calculator or spreadsheet</li>
+</ul>
+<h4 id="3-3-Procedure"><a href="#3-3-Procedure" class="headerlink" title="3.3 Procedure"></a>3.3 Procedure</h4><ol>
+<li>Record the culture identifier and sampling time.</li>
+<li>Gently mix the culture to obtain a representative suspension before removing the counting aliquot.</li>
+<li>Transfer the aliquot into a labeled tube.</li>
+<li>Keep the aliquot separate from the source culture throughout counting.</li>
+<li>Prepare the dilution specified by the laboratory method.</li>
+<li>Record the culture volume, diluent volume, and final volume at every dilution step.</li>
+<li>Mix each dilution before taking material for the next step.</li>
+<li>Calculate the total dilution factor:</li>
+</ol>
+<p>$$<br>D &#x3D; \prod_{i&#x3D;1}^{n} d_i<br>$$</p>
+<p>where $d_i$ is the dilution factor for each preparation step and $n$ is the number of steps. Include dilution caused by any added counting reagent. For an undiluted sample without reagent addition, $D &#x3D; 1$.</p>
+<ol start="9">
+<li>Apply the established method for obtaining countable cells.</li>
+<li>If fixation or another immobilization method is used, apply it only to the counting aliquot and record the reagent, conditions, and dilution contribution.</li>
+<li>If cells are counted alive, use a method that prevents movement from causing repeated or missed counts.</li>
+<li>Prepare and load the counting chamber according to the manufacturer’s instructions.</li>
+<li>Check that the coverslip is correctly positioned and that the chamber is evenly filled.</li>
+<li>Reload a chamber with bubbles, leakage, or visibly uneven distribution.</li>
+<li>Locate the predefined counting areas.</li>
+<li>Focus so that individual Tetrahymena cells can be distinguished from debris.</li>
+<li>Apply the same counting-unit definition throughout the dataset.</li>
+<li>Count the cells in each selected area.</li>
+<li>Use a consistent boundary rule, such as including cells touching the top and left edges and excluding cells touching the bottom and right edges.</li>
+<li>Record the raw count for every area.</li>
+<li>Determine the total volume counted:</li>
+</ol>
+<p>$$<br>V_{\text{counted}} &#x3D;<br>\frac{k \times A \times h}{1000}<br>\ \text{mL}<br>$$</p>
+<p>where:</p>
+<ul>
+<li>$k$ is the number of counting areas;</li>
+<li>$A$ is the area of one counting region in mm²;</li>
+<li>$h$ is the chamber depth in mm;</li>
+<li>the factor 1,000 converts mm³ to mL.</li>
+</ul>
+<ol start="22">
+<li>Calculate the density of the original culture:</li>
+</ol>
+<p>$$<br>C_{\text{original}} &#x3D;<br>\frac{N_{\text{total}} \times D}<br>{V_{\text{counted}}}<br>$$</p>
+<p>where $N_{\text{total}}$ is the total number of cells counted in all selected areas.</p>
+<ol start="23">
+<li>If a counting square is 1 mm × 1 mm and the chamber depth is 0.1 mm, its volume is 0.1 mm³, equivalent to 0.0001 mL. For this geometry:</li>
+</ol>
+<p>$$<br>C_{\text{original}} &#x3D;<br>N_{\text{total}} \times D \times 10{,}000<br>\ \text{cells&#x2F;mL}<br>$$</p>
+<ol start="24">
+<li>Repeat the measurement using the recorded number of independently loaded chambers.</li>
+<li>Calculate a density for each chamber loading before summarizing the results.</li>
+<li>Retain the individual density values.</li>
+<li>Compare repeat counts with the documented agreement criterion.</li>
+<li>If the criterion is not met, review sample mixing, dilution, chamber loading, and counting records before repeating the measurement.</li>
+<li>Report the original-culture density in cells&#x2F;mL together with the raw counts, dilution factor, counted volume, chamber model, sample preparation method, and technical replicate count.</li>
+<li>Repeated chamber loadings from one culture are technical measurements, not independent biological replicates.</li>
+<li>State the meaning of the reported count. Enumeration of intact cells after fixation represents a total-cell estimate. A viable-cell concentration requires a separately established viability assessment.</li>
+</ol>
+<h3 id="4-Pre-experimental-Standardization-of-Tetrahymena-Cultures"><a href="#4-Pre-experimental-Standardization-of-Tetrahymena-Cultures" class="headerlink" title="4. Pre-experimental Standardization of Tetrahymena Cultures"></a>4. Pre-experimental Standardization of Tetrahymena Cultures</h3><h4 id="4-1-Purpose"><a href="#4-1-Purpose" class="headerlink" title="4.1 Purpose"></a>4.1 Purpose</h4><p>To prepare Tetrahymena cultures with a documented cultivation history, comparable growth phase, and consistent starting cell density so that differences in initial culture condition can be recognized and controlled.</p>
+<h4 id="4-2-Materials"><a href="#4-2-Materials" class="headerlink" title="4.2 Materials"></a>4.2 Materials</h4><ul>
+<li>Tetrahymena cultures of the same documented species and strain</li>
+<li>Fresh sterile SPP medium: 10 g&#x2F;L yeast extract, 1 g&#x2F;L peptone, and 2 g&#x2F;L glucose</li>
+<li>Sterile culture vessels, pipettes, pipette tips, and sampling tubes</li>
+<li>Temperature-controlled incubation equipment</li>
+<li>Shaker, if used</li>
+<li>Light microscope and calibrated counting chamber</li>
+<li>Existing strain-specific culture records or growth-curve information</li>
+<li>Sample labels and standardization record sheet</li>
+</ul>
+<h4 id="4-3-Procedure"><a href="#4-3-Procedure" class="headerlink" title="4.3 Procedure"></a>4.3 Procedure</h4><ol>
+<li>Identify the cultures to be compared.</li>
+<li>Record the strain, parent culture, passage history, and medium batch.</li>
+<li>Preserve separate identifiers for independently prepared biological replicates.</li>
+<li>Prepare pre-cultures using the recorded starting density, working volume, vessel configuration, temperature, and static or shaking conditions.</li>
+<li>Record the inoculation time for each culture.</li>
+<li>Maintain the documented pre-culture duration and record the actual elapsed time.</li>
+<li>If cultures were initiated at different times, retain those differences in the record.</li>
+<li>Assess the growth phase using existing observations or growth-curve information for the same strain and culture conditions.</li>
+<li>A single density measurement or stated culture age does not by itself establish the growth phase.</li>
+<li>Examine a separate aliquot from each culture.</li>
+<li>Record morphology, motility, aggregation, and any unusual appearance.</li>
+<li>Document cultures that do not meet the inclusion criteria.</li>
+<li>Gently mix each culture and measure its density, $C_{\text{measured}}$, using the same counting and sample preparation method across all samples.</li>
+<li>Calculate the volume of culture required to prepare the target density, $C_{\text{target}}$, in the intended final suspension volume, $V_{\text{final}}$:</li>
+</ol>
+<p>$$<br>V_{\text{culture}} &#x3D;<br>\frac{C_{\text{target}} \times V_{\text{final}}}<br>{C_{\text{measured}}}<br>$$</p>
+<ol start="15">
+<li>Calculate the required fresh-medium volume:</li>
+</ol>
+<p>$$<br>V_{\text{medium}} &#x3D;<br>V_{\text{final}} - V_{\text{culture}}<br>$$</p>
+<ol start="16">
+<li>Combine the calculated culture volume with fresh SPP medium.</li>
+<li>Mix gently and retain the link to the source-culture identifier.</li>
+<li>Take a separate aliquot from each standardized suspension.</li>
+<li>Verify its density using the same counting method.</li>
+<li>Record the measured value and compare it with the predefined acceptance range.</li>
+<li>Record the final suspension volume and the time of density verification.</li>
+<li>If a substantial interval elapses before use, follow the established rule for rechecking density and culture condition.</li>
+<li>Gently redistribute the suspension before dispensing aliquots.</li>
+<li>Apply the documented allocation and replicate plan while preserving sample identity.</li>
+<li>Record the cultivation history, growth-phase evidence, measured starting density, medium batch, final volume, and preparation-to-use interval for each sample.</li>
+<li>Describe the preparation accurately in the final Methods text. Comparable culture age and growth phase should not be described as cell-cycle synchronization unless synchronization was independently established.</li>
+</ol>
+<hr>
+<h2 id="Auxotrophic-Yeast-Culture-Selection-Storage-and-Growth-Monitoring"><a href="#Auxotrophic-Yeast-Culture-Selection-Storage-and-Growth-Monitoring" class="headerlink" title="Auxotrophic Yeast Culture, Selection, Storage, and Growth Monitoring"></a>Auxotrophic Yeast Culture, Selection, Storage, and Growth Monitoring</h2><p>Protocol ID: P-LLO-06<br>Prepared by: TDY<br>Reviewed by: TDY<br>Version: 2026-10-02<br>Status: Draft  </p>
+<blockquote>
+<p>Source-document note: The DOCX assigns this protocol the identifier P-LLO-05, which duplicates the identifier used for the Tetrahymena culture protocol. It is assigned P-LLO-06 here to maintain unique protocol identifiers.</p>
+</blockquote>
+<h3 id="1-Routine-Culture-of-Auxotrophic-W303-Yeast"><a href="#1-Routine-Culture-of-Auxotrophic-W303-Yeast" class="headerlink" title="1. Routine Culture of Auxotrophic W303 Yeast"></a>1. Routine Culture of Auxotrophic W303 Yeast</h3><h4 id="1-1-Purpose-1"><a href="#1-1-Purpose-1" class="headerlink" title="1.1 Purpose"></a>1.1 Purpose</h4><p>To culture W303 yeast in liquid or on solid medium for strain maintenance, colony isolation, and experimental use.</p>
+<h4 id="1-2-Materials-1"><a href="#1-2-Materials-1" class="headerlink" title="1.2 Materials"></a>1.2 Materials</h4><ul>
+<li>W303 yeast strain</li>
+<li>YPD liquid medium</li>
+<li>YPD agar plates</li>
+<li>SD-Ura or SD-Trp medium when selection is required</li>
+<li>Sterile culture tubes or baffled flasks</li>
+<li>Sterile inoculating loops or pipette tips</li>
+<li>Shaking incubator set to 30°C</li>
+<li>Plate incubator set to 30°C</li>
+</ul>
+<h4 id="1-3-YPD-Medium-Composition"><a href="#1-3-YPD-Medium-Composition" class="headerlink" title="1.3 YPD Medium Composition"></a>1.3 YPD Medium Composition</h4><p>For 1 L of liquid YPD:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+<th align="right">Final concentration</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Yeast extract</td>
+<td align="right">10 g</td>
+<td align="right">1% w&#x2F;v</td>
+</tr>
+<tr>
+<td>Peptone</td>
+<td align="right">20 g</td>
+<td align="right">2% w&#x2F;v</td>
+</tr>
+<tr>
+<td>D-glucose</td>
+<td align="right">20 g</td>
+<td align="right">2% w&#x2F;v</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">To 1 L</td>
+<td align="right">—</td>
+</tr>
+</tbody></table>
+<p>For solid YPD, add 20 g of agar per liter.</p>
+<h4 id="1-4-YPD-Preparation"><a href="#1-4-YPD-Preparation" class="headerlink" title="1.4 YPD Preparation"></a>1.4 YPD Preparation</h4><ol>
+<li>Dissolve 10 g of yeast extract and 20 g of peptone in approximately 900 mL of deionized water.</li>
+<li>For solid medium, add 20 g of agar.</li>
+<li>Autoclave at 121°C for 15–20 min.</li>
+<li>Cool the medium to approximately 50–60°C.</li>
+<li>Add 100 mL of sterile 20% w&#x2F;v glucose solution.</li>
+<li>Mix thoroughly.</li>
+<li>For plates, pour approximately 20–25 mL of medium into each Petri dish.</li>
+<li>Allow the agar to solidify.</li>
+</ol>
+<h4 id="1-5-Liquid-Culture-Procedure"><a href="#1-5-Liquid-Culture-Procedure" class="headerlink" title="1.5 Liquid Culture Procedure"></a>1.5 Liquid Culture Procedure</h4><ol>
+<li>Transfer one isolated colony into 3–5 mL of liquid medium.</li>
+<li>Incubate at 30°C with shaking at 200 rpm for 12–18 h, typically overnight.</li>
+<li>For a larger culture, dilute the overnight culture 1:50 to 1:100 into fresh medium.</li>
+<li>Continue incubation at 30°C and 200 rpm until the required growth phase is reached.</li>
+<li>For log-phase cells, harvest the culture at approximately OD600 0.4–0.8.</li>
+<li>Keep the culture volume at or below approximately 20% of the flask volume to maintain sufficient aeration.</li>
+</ol>
+<h4 id="1-6-Solid-Culture-Procedure"><a href="#1-6-Solid-Culture-Procedure" class="headerlink" title="1.6 Solid Culture Procedure"></a>1.6 Solid Culture Procedure</h4><ol>
+<li>Streak yeast cells onto the appropriate agar plate.</li>
+<li>Incubate the plate upside down at 30°C.</li>
+<li>Incubate YPD plates for approximately 2 days.</li>
+<li>Incubate SD-Ura or SD-Trp plates for 2–4 days, depending on colony growth.</li>
+<li>Use a well-isolated colony for subsequent liquid culture or strain purification.</li>
+</ol>
+<h3 id="2-Preparation-of-Synthetic-Defined-Media"><a href="#2-Preparation-of-Synthetic-Defined-Media" class="headerlink" title="2. Preparation of Synthetic Defined Media"></a>2. Preparation of Synthetic Defined Media</h3><h4 id="2-1-Purpose-1"><a href="#2-1-Purpose-1" class="headerlink" title="2.1 Purpose"></a>2.1 Purpose</h4><p>To prepare SD-Ura and SD-Trp media for selective culture of W303-derived yeast strains carrying URA3 or TRP1 selection markers.</p>
+<h4 id="2-2-Materials-1"><a href="#2-2-Materials-1" class="headerlink" title="2.2 Materials"></a>2.2 Materials</h4><ul>
+<li>SD-Ura powder</li>
+<li>SD-Trp powder</li>
+<li>Deionized water</li>
+<li>Sterile 40% w&#x2F;v glucose solution</li>
+<li>Agar, for solid medium</li>
+<li>Autoclave</li>
+<li>Sterile bottles</li>
+<li>Sterile Petri dishes</li>
+</ul>
+<h4 id="2-3-SD-Ura-Medium"><a href="#2-3-SD-Ura-Medium" class="headerlink" title="2.3 SD-Ura Medium"></a>2.3 SD-Ura Medium</h4><p>For approximately 1 L:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SD-Ura powder</td>
+<td align="right">8 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">950 mL</td>
+</tr>
+<tr>
+<td>Sterile 40% glucose</td>
+<td align="right">50 mL</td>
+</tr>
+<tr>
+<td>Agar, for solid medium</td>
+<td align="right">20 g</td>
+</tr>
+</tbody></table>
+<p>The final glucose concentration is 2% w&#x2F;v.</p>
+<h4 id="2-4-SD-Trp-Medium"><a href="#2-4-SD-Trp-Medium" class="headerlink" title="2.4 SD-Trp Medium"></a>2.4 SD-Trp Medium</h4><p>For approximately 1 L:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Amount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SD-Trp powder</td>
+<td align="right">8 g</td>
+</tr>
+<tr>
+<td>Deionized water</td>
+<td align="right">950 mL</td>
+</tr>
+<tr>
+<td>Sterile 40% glucose</td>
+<td align="right">50 mL</td>
+</tr>
+<tr>
+<td>Agar, for solid medium</td>
+<td align="right">20 g</td>
+</tr>
+</tbody></table>
+<p>The final glucose concentration is 2% w&#x2F;v.</p>
+<h4 id="2-5-Preparation-of-40-Glucose-Solution"><a href="#2-5-Preparation-of-40-Glucose-Solution" class="headerlink" title="2.5 Preparation of 40% Glucose Solution"></a>2.5 Preparation of 40% Glucose Solution</h4><ol>
+<li>Dissolve 400 g of D-glucose in deionized water.</li>
+<li>Adjust the final volume to 1 L.</li>
+<li>Sterilize separately by filtration through a 0.22 μm filter.</li>
+<li>Store the sterile solution at 4°C in a clean, tightly closed bottle.</li>
+</ol>
+<h4 id="2-6-SD-Ura-Preparation"><a href="#2-6-SD-Ura-Preparation" class="headerlink" title="2.6 SD-Ura Preparation"></a>2.6 SD-Ura Preparation</h4><ol>
+<li>Add 8 g of SD-Ura powder to 950 mL of deionized water.</li>
+<li>Mix until the powder has dissolved completely.</li>
+<li>For SD-Ura agar, add 20 g of agar before autoclaving.</li>
+<li>Autoclave at 121°C for 15–20 min.</li>
+<li>Cool the medium to approximately 50–60°C.</li>
+<li>Aseptically add 50 mL of sterile 40% glucose.</li>
+<li>Mix thoroughly without introducing excessive bubbles.</li>
+<li>For liquid medium, dispense into sterile bottles or culture containers.</li>
+<li>For solid medium, pour approximately 20–25 mL into each Petri dish.</li>
+<li>Allow the agar to solidify.</li>
+<li>Store the medium at 4°C.</li>
+</ol>
+<h4 id="2-7-SD-Trp-Preparation"><a href="#2-7-SD-Trp-Preparation" class="headerlink" title="2.7 SD-Trp Preparation"></a>2.7 SD-Trp Preparation</h4><ol>
+<li>Add 8 g of SD-Trp powder to 950 mL of deionized water.</li>
+<li>Mix until the powder has dissolved completely.</li>
+<li>For SD-Trp agar, add 20 g of agar before autoclaving.</li>
+<li>Autoclave at 121°C for 15–20 min.</li>
+<li>Cool the medium to approximately 50–60°C.</li>
+<li>Aseptically add 50 mL of sterile 40% glucose.</li>
+<li>Mix thoroughly.</li>
+<li>Dispense the liquid medium or pour agar plates as required.</li>
+</ol>
+<blockquote>
+<p>Source consistency note: The source DOCX lists sterile 20% glucose in one SD-Trp preparation step, while the formulation uses 50 mL of glucose solution in 950 mL of medium and specifies a final glucose concentration of 2%. The organized version therefore uses sterile 40% glucose consistently.</p>
+</blockquote>
+<h3 id="3-Yeast-Selection-and-Single-Colony-Expansion"><a href="#3-Yeast-Selection-and-Single-Colony-Expansion" class="headerlink" title="3. Yeast Selection and Single-Colony Expansion"></a>3. Yeast Selection and Single-Colony Expansion</h3><h4 id="3-1-Purpose-1"><a href="#3-1-Purpose-1" class="headerlink" title="3.1 Purpose"></a>3.1 Purpose</h4><p>To select transformed yeast, isolate clonal transformants, expand individual colonies, and maintain selection-dependent phenotypes.</p>
+<h4 id="3-2-Materials-1"><a href="#3-2-Materials-1" class="headerlink" title="3.2 Materials"></a>3.2 Materials</h4><ul>
+<li>Transformed W303 yeast cells</li>
+<li>SD-Ura agar and liquid medium</li>
+<li>SD-Trp agar and liquid medium</li>
+<li>YPD medium for optional post-transformation recovery</li>
+<li>Sterile water</li>
+<li>Sterile spreaders</li>
+<li>Sterile inoculating loops or pipette tips</li>
+<li>Sterile culture tubes and flasks</li>
+<li>Incubator and shaking incubator set to 30°C</li>
+</ul>
+<h4 id="3-3-Post-Transformation-Selection"><a href="#3-3-Post-Transformation-Selection" class="headerlink" title="3.3 Post-Transformation Selection"></a>3.3 Post-Transformation Selection</h4><ol>
+<li><p>Resuspend the cells in 200–500 μL of sterile water or recovery medium.</p>
+</li>
+<li><p>If recovery is required, incubate the cells in YPD at 30°C with shaking at 200 rpm for approximately 1 h.</p>
+</li>
+<li><p>Spread 50–200 μL of the cell suspension onto the appropriate selective plate.</p>
+</li>
+<li><p>If low transformation efficiency is expected, plate the remaining cells on a second selective plate.</p>
+</li>
+<li><p>Prepare the following controls when needed:</p>
+<ul>
+<li>Untransformed cells on the selective plate as a negative control</li>
+<li>Untransformed cells on YPD as a viability control</li>
+</ul>
+</li>
+<li><p>Incubate the plates upside down at 30°C for 2–4 days.</p>
+</li>
+<li><p>Do not interpret very small colonies or background growth until colonies are clearly distinguishable.</p>
+</li>
+</ol>
+<h4 id="3-4-Single-Colony-Isolation"><a href="#3-4-Single-Colony-Isolation" class="headerlink" title="3.4 Single-Colony Isolation"></a>3.4 Single-Colony Isolation</h4><ol>
+<li>Select a well-separated colony from the transformation plate.</li>
+<li>Streak the colony onto a fresh plate containing the same selective medium.</li>
+<li>Incubate at 30°C for 2–3 days.</li>
+<li>Confirm that individual colonies have formed along the final streak area.</li>
+<li>Pick one isolated colony for liquid expansion.</li>
+</ol>
+<p>Restreaking before expansion reduces the chance of maintaining mixed transformants or neighboring background colonies.</p>
+<h4 id="3-5-Liquid-Expansion"><a href="#3-5-Liquid-Expansion" class="headerlink" title="3.5 Liquid Expansion"></a>3.5 Liquid Expansion</h4><ol>
+<li>Inoculate one isolated colony into 3–5 mL of the appropriate selective liquid medium.</li>
+<li>Incubate at 30°C and 200 rpm for 12–18 h.</li>
+<li>For larger-scale culture, dilute the overnight culture 1:50 to 1:100 into fresh selective medium.</li>
+<li>Incubate at 30°C and 200 rpm.</li>
+<li>Harvest during log phase, typically at OD600 0.4–0.8, when actively growing cells are required.</li>
+<li>Use part of the confirmed culture to prepare a glycerol stock.</li>
+</ol>
+<h4 id="3-6-Maintenance-of-Phenotypic-Stability"><a href="#3-6-Maintenance-of-Phenotypic-Stability" class="headerlink" title="3.6 Maintenance of Phenotypic Stability"></a>3.6 Maintenance of Phenotypic Stability</h4><ol>
+<li>Use YPD only when non-selective recovery or rapid biomass production is specifically required.</li>
+<li>Avoid repeated overnight passaging and prolonged stationary-phase incubation.</li>
+<li>Prepare a master glycerol stock shortly after clone verification.</li>
+<li>Start new experiments from the master stock or from a limited-passage working stock.</li>
+<li>Restreak strains on selective agar before critical experiments.</li>
+<li>Verify the expected phenotype, plasmid, or DNA integration after recovery when experimental conclusions depend on genotype stability.</li>
+</ol>
+<h3 id="4-Yeast-Glycerol-Stock-Preparation-and-Recovery"><a href="#4-Yeast-Glycerol-Stock-Preparation-and-Recovery" class="headerlink" title="4. Yeast Glycerol Stock Preparation and Recovery"></a>4. Yeast Glycerol Stock Preparation and Recovery</h3><h4 id="4-1-Purpose-1"><a href="#4-1-Purpose-1" class="headerlink" title="4.1 Purpose"></a>4.1 Purpose</h4><p>To preserve W303 yeast strains at −80°C and recover viable clonal cultures while maintaining the required selection marker.</p>
+<h4 id="4-2-Materials-1"><a href="#4-2-Materials-1" class="headerlink" title="4.2 Materials"></a>4.2 Materials</h4><ul>
+<li>Fresh overnight yeast culture</li>
+<li>Sterile 30% v&#x2F;v glycerol solution</li>
+<li>Sterile cryovials</li>
+<li>Appropriate selective agar plates</li>
+<li>YPD agar plates, when selection is not required</li>
+<li>−80°C freezer</li>
+<li>Sterile inoculating loops or pipette tips</li>
+</ul>
+<h4 id="4-3-Freezing-Solution"><a href="#4-3-Freezing-Solution" class="headerlink" title="4.3 Freezing Solution"></a>4.3 Freezing Solution</h4><p>Mixing equal volumes of yeast culture and sterile 30% glycerol produces a final glycerol concentration of 15%.</p>
+<h4 id="4-4-Glycerol-Stock-Preparation"><a href="#4-4-Glycerol-Stock-Preparation" class="headerlink" title="4.4 Glycerol Stock Preparation"></a>4.4 Glycerol Stock Preparation</h4><ol>
+<li>Grow a confirmed single-colony culture overnight in 3–5 mL of the appropriate medium.</li>
+<li>Label a sterile cryovial with the strain name, selection marker, clone number, and date.</li>
+<li>Add 500 μL of overnight yeast culture to the cryovial.</li>
+<li>Add 500 μL of sterile 30% glycerol.</li>
+<li>Mix thoroughly by gentle inversion or pipetting. Avoid vigorous vortexing.</li>
+<li>Place the cryovial directly at −80°C.</li>
+<li>Keep a master stock and a separate working stock when the strain will be used frequently.</li>
+<li>Do not use −20°C for long-term yeast storage.</li>
+</ol>
+<h4 id="4-5-Recovery"><a href="#4-5-Recovery" class="headerlink" title="4.5 Recovery"></a>4.5 Recovery</h4><ol>
+<li>Remove the glycerol stock from the −80°C freezer.</li>
+<li>Keep the vial cold and avoid thawing the entire stock.</li>
+<li>Use a sterile loop or pipette tip to scrape a small amount of frozen material from the surface.</li>
+<li>Immediately return the vial to −80°C.</li>
+<li>Streak the collected cells onto the appropriate agar plate.</li>
+<li>Incubate at 30°C for 2–4 days.</li>
+<li>Pick one isolated colony into 3–5 mL of the corresponding liquid medium.</li>
+<li>Incubate at 30°C and 200 rpm for 12–18 h.</li>
+<li>Reconfirm the expected phenotype or genotype before critical experiments.</li>
+</ol>
+<h3 id="5-Monitoring-Yeast-Growth"><a href="#5-Monitoring-Yeast-Growth" class="headerlink" title="5. Monitoring Yeast Growth"></a>5. Monitoring Yeast Growth</h3><h4 id="5-1-Purpose"><a href="#5-1-Purpose" class="headerlink" title="5.1 Purpose"></a>5.1 Purpose</h4><p>To quantify yeast growth by OD600, generate growth curves, and compare growth under different media or selection conditions.</p>
+<h4 id="5-2-Materials"><a href="#5-2-Materials" class="headerlink" title="5.2 Materials"></a>5.2 Materials</h4><ul>
+<li>Yeast cultures</li>
+<li>YPD, SD-Ura, or SD-Trp medium</li>
+<li>Spectrophotometer or microplate reader capable of measuring OD600</li>
+<li>Cuvettes or clear microplates</li>
+<li>Sterile culture tubes or flasks</li>
+<li>Sterile medium for dilution</li>
+<li>Shaking incubator set to 30°C</li>
+<li>Data analysis or graphing software</li>
+</ul>
+<h4 id="5-3-OD600-Measurement"><a href="#5-3-OD600-Measurement" class="headerlink" title="5.3 OD600 Measurement"></a>5.3 OD600 Measurement</h4><ol>
+<li>Turn on the spectrophotometer and select a wavelength of 600 nm.</li>
+<li>Use uninoculated medium as the blank.</li>
+<li>Use the same medium for blanking and sample preparation. For example, blank SD-Ura samples with sterile SD-Ura medium.</li>
+<li>Mix the yeast culture thoroughly before sampling because yeast cells settle rapidly.</li>
+<li>Transfer the required volume to a clean cuvette.</li>
+<li>Measure and record the OD600.</li>
+<li>Measure samples within the linear range of the instrument. A practical range is approximately OD600 0.1–0.8, although the exact range depends on the instrument.</li>
+<li>Dilute samples with the same sterile medium when the OD600 is above the linear range.</li>
+</ol>
+<h4 id="5-4-Dilution-Procedure"><a href="#5-4-Dilution-Procedure" class="headerlink" title="5.4 Dilution Procedure"></a>5.4 Dilution Procedure</h4><p>For a 1:10 dilution:</p>
+<ol>
+<li>Add 100 μL of yeast culture to 900 μL of sterile medium.</li>
+<li>Mix thoroughly.</li>
+<li>Measure the diluted sample at OD600.</li>
+<li>Calculate the original OD600:</li>
+</ol>
+<p>$$<br>\text{OD}<em>{600,\text{original}} &#x3D;<br>\text{OD}</em>{600,\text{measured}}<br>\times<br>\text{dilution factor}<br>$$</p>
+<p>Example:</p>
+<ul>
+<li>Measured OD600: 0.65</li>
+<li>Dilution factor: 10</li>
+<li>Original OD600: 6.5</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Dilution</th>
+<th align="right">Culture volume</th>
+<th align="right">Medium volume</th>
+<th align="right">Dilution factor</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1:2</td>
+<td align="right">500 μL</td>
+<td align="right">500 μL</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>1:5</td>
+<td align="right">200 μL</td>
+<td align="right">800 μL</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>1:10</td>
+<td align="right">100 μL</td>
+<td align="right">900 μL</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>1:20</td>
+<td align="right">50 μL</td>
+<td align="right">950 μL</td>
+<td align="right">20</td>
+</tr>
+</tbody></table>
+<h4 id="5-5-Growth-Curve-Procedure"><a href="#5-5-Growth-Curve-Procedure" class="headerlink" title="5.5 Growth Curve Procedure"></a>5.5 Growth Curve Procedure</h4><ol>
+<li>Start from freshly isolated colonies or equivalent overnight cultures.</li>
+<li>Prepare at least three independent biological replicates for each condition.</li>
+<li>Grow overnight cultures in the medium appropriate for each strain.</li>
+<li>Measure the OD600 of each overnight culture.</li>
+<li>Dilute each culture into fresh medium to the same starting OD600, typically 0.05.</li>
+<li>Use identical culture volumes, flask sizes, temperatures, and shaking speeds for all conditions.</li>
+<li>Incubate at 30°C and 200 rpm.</li>
+<li>Record OD600 at time zero.</li>
+<li>Measure OD600 every 1–2 h during active growth.</li>
+<li>Continue measurements for 12–24 h or until the cultures reach stationary phase.</li>
+<li>Dilute samples when necessary and correct each reading using the dilution factor.</li>
+<li>Plot corrected OD600 against time.</li>
+</ol>
+<h4 id="5-6-Growth-Rate-Calculation"><a href="#5-6-Growth-Rate-Calculation" class="headerlink" title="5.6 Growth Rate Calculation"></a>5.6 Growth Rate Calculation</h4><p>Select two time points within the exponential growth phase.</p>
+<p>Calculate the specific growth rate:</p>
+<p>$$<br>\mu &#x3D;<br>\frac{\ln(\text{OD}<em>{2})-\ln(\text{OD}</em>{1})}<br>{t_{2}-t_{1}}<br>$$</p>
+<p>Calculate the doubling time:</p>
+<p>$$<br>t_{\text{doubling}} &#x3D;<br>\frac{\ln 2}{\mu}<br>$$</p>
+<p>Use only exponential-phase measurements for these calculations.</p>
+<h4 id="5-7-Comparison-of-Growth-Conditions"><a href="#5-7-Comparison-of-Growth-Conditions" class="headerlink" title="5.7 Comparison of Growth Conditions"></a>5.7 Comparison of Growth Conditions</h4><p>When comparing YPD, SD-Ura, and SD-Trp cultures:</p>
+<ol>
+<li>Use the same strain or a clearly defined genotype for each comparison.</li>
+<li>Start all cultures at the same OD600.</li>
+<li>Maintain the same temperature, shaking speed, flask type, and culture-to-flask volume ratio.</li>
+<li>Blank each sample against its own uninoculated medium.</li>
+<li>Use at least three biological replicates.</li>
+</ol>
+<h3 id="References-2"><a href="#References-2" class="headerlink" title="References"></a>References</h3><p>[1] BestBio. Yeast Protein Extraction Kit [Internet]. [cited 2026-10-01]. Available from: <a target="_blank" rel="noopener" href="https://www.bestbio.com.cn/product/BB-319817.html">https://www.bestbio.com.cn/product/BB-319817.html</a></p>
+<p>[2] Beyotime. BCA Protein Assay Kit [Internet]. [cited 2026-10-01]. Available from: <a target="_blank" rel="noopener" href="https://www.beyotime.com/Manual/P0012%20BCA%E8%9B%8B%E7%99%BD%E6%B5%93%E5%BA%A6%E6%B5%8B%E5%AE%9A%E8%AF%95%E5%89%82%E7%9B%92.pdf">https://www.beyotime.com/Manual/P0012%20BCA%E8%9B%8B%E7%99%BD%E6%B5%93%E5%BA%A6%E6%B5%8B%E5%AE%9A%E8%AF%95%E5%89%82%E7%9B%92.pdf</a></p>
+<p>[3] Hennessey TM, Kung C. Slow calcium channels of the ciliate Tetrahymena. <em>Journal of Experimental Biology</em>. 1984;110:169–180.</p>
+<p>[4] ACMEC Biochemical. ACP Activity Assay Kit [Internet]. [cited 2026-10-01]. Available from: <a target="_blank" rel="noopener" href="https://www.acmec.com.cn/product/ac10388">https://www.acmec.com.cn/product/ac10388</a></p>
+<p>[5] GeneBetter. General-purpose DNA purification and recovery kit [Internet].</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://yuuzukihana.github.io">Yuuzuki Hanashiro</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://yuuzukihana.github.io/posts/llo-protocols/">https://yuuzukihana.github.io/posts/llo-protocols/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/avatar.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width no-desc" href="/posts/DBTLs/" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2"></div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Yuuzuki Hanashiro</div><div class="author-info-description">夕月はただひたすら遥へ<br>それはまさしく運命</div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/YuuzukiHana"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Strain-Cultivation"><span class="toc-number">1.</span> <span class="toc-text">Strain Cultivation</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Saccharomyces-cerevisiae"><span class="toc-number">1.1.</span> <span class="toc-text">1. Saccharomyces cerevisiae</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-YPD-Medium"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 YPD Medium</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-SD-Ura-YPD-Medium"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 SD-Ura-YPD Medium</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-SD-Ura-YPG-Medium"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.3 SD-Ura-YPG Medium</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-4-SD-Ura-2-Raffinose-Medium-Without-Glucose"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.4 SD-Ura + 2% Raffinose Medium Without Glucose</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Tetrahymena"><span class="toc-number">1.2.</span> <span class="toc-text">2. Tetrahymena</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-SPP-Medium"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 SPP Medium</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Escherichia-coli"><span class="toc-number">1.3.</span> <span class="toc-text">3. Escherichia coli</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-LB-Medium"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 LB Medium</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Protein-Expression-and-Analysis"><span class="toc-number">2.</span> <span class="toc-text">Protein Expression and Analysis</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Purpose"><span class="toc-number">2.1.</span> <span class="toc-text">Purpose</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Protein-Expression-Induction"><span class="toc-number">2.2.</span> <span class="toc-text">1. Protein Expression Induction</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Protein-Extraction"><span class="toc-number">2.3.</span> <span class="toc-text">2. Protein Extraction</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-Preparation-of-Extraction-Buffer"><span class="toc-number">2.3.1.</span> <span class="toc-text">2.1 Preparation of Extraction Buffer</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-Extraction-Procedure"><span class="toc-number">2.3.2.</span> <span class="toc-text">2.2 Extraction Procedure</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Protein-Quantification"><span class="toc-number">2.4.</span> <span class="toc-text">3. Protein Quantification</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-Preparation-of-the-Protein-Standard"><span class="toc-number">2.4.1.</span> <span class="toc-text">3.1 Preparation of the Protein Standard</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-Preparation-of-the-BCA-Working-Solution"><span class="toc-number">2.4.2.</span> <span class="toc-text">3.2 Preparation of the BCA Working Solution</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-Standard-Curve"><span class="toc-number">2.4.3.</span> <span class="toc-text">3.3 Standard Curve</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-4-Sample-Loading-and-Measurement"><span class="toc-number">2.4.4.</span> <span class="toc-text">3.4 Sample Loading and Measurement</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Western-Blotting"><span class="toc-number">2.5.</span> <span class="toc-text">4. Western Blotting</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-Materials-and-Equipment"><span class="toc-number">2.5.1.</span> <span class="toc-text">4.1 Materials and Equipment</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-2-SDS-PAGE-Loading-and-Electrophoresis"><span class="toc-number">2.5.2.</span> <span class="toc-text">4.2 SDS-PAGE Loading and Electrophoresis</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-3-Protein-Transfer"><span class="toc-number">2.5.3.</span> <span class="toc-text">4.3 Protein Transfer</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-4-Membrane-Blocking"><span class="toc-number">2.5.4.</span> <span class="toc-text">4.4 Membrane Blocking</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-5-Primary-Antibody-Incubation"><span class="toc-number">2.5.5.</span> <span class="toc-text">4.5 Primary Antibody Incubation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-6-Secondary-Antibody-Incubation"><span class="toc-number">2.5.6.</span> <span class="toc-text">4.6 Secondary Antibody Incubation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-7-Chemiluminescence-Detection"><span class="toc-number">2.5.7.</span> <span class="toc-text">4.7 Chemiluminescence Detection</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-8-Antibodies-Used"><span class="toc-number">2.5.8.</span> <span class="toc-text">4.8 Antibodies Used</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#References"><span class="toc-number">2.6.</span> <span class="toc-text">References</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tetrahymena-Co-incubation"><span class="toc-number">3.</span> <span class="toc-text">Tetrahymena Co-incubation</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Materials"><span class="toc-number">3.1.</span> <span class="toc-text">Materials</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Biological-Materials"><span class="toc-number">3.1.1.</span> <span class="toc-text">Biological Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Reagents"><span class="toc-number">3.1.2.</span> <span class="toc-text">Reagents</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-I-Starvation-of-Tetrahymena"><span class="toc-number">3.2.</span> <span class="toc-text">Part I. Starvation of Tetrahymena</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-Collection-of-Tetrahymena"><span class="toc-number">3.2.1.</span> <span class="toc-text">1. Collection of Tetrahymena</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-Washing-of-Tetrahymena"><span class="toc-number">3.2.2.</span> <span class="toc-text">2. Washing of Tetrahymena</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-Starvation-Incubation"><span class="toc-number">3.2.3.</span> <span class="toc-text">3. Starvation Incubation</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-II-Preparation-of-Yeast-Cultures"><span class="toc-number">3.3.</span> <span class="toc-text">Part II. Preparation of Yeast Cultures</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-Preparation-of-the-Yeast-Groups"><span class="toc-number">3.3.1.</span> <span class="toc-text">4. Preparation of the Yeast Groups</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-III-Co-incubation-of-Tetrahymena-with-Yeast"><span class="toc-number">3.4.</span> <span class="toc-text">Part III. Co-incubation of Tetrahymena with Yeast</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#5-Distribution-of-Cultures"><span class="toc-number">3.4.1.</span> <span class="toc-text">5. Distribution of Cultures</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-Co-incubation"><span class="toc-number">3.4.2.</span> <span class="toc-text">6. Co-incubation</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-IV-Trypan-Blue-Staining-and-Hemocytometer-Counting"><span class="toc-number">3.5.</span> <span class="toc-text">Part IV. Trypan Blue Staining and Hemocytometer Counting</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#7-Light-Microscopy"><span class="toc-number">3.5.1.</span> <span class="toc-text">7. Light Microscopy</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-Calculation-of-Tetrahymena-Viability"><span class="toc-number">3.5.2.</span> <span class="toc-text">8. Calculation of Tetrahymena Viability</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-V-Partial-Lysis-of-Tetrahymena"><span class="toc-number">3.6.</span> <span class="toc-text">Part V. Partial Lysis of Tetrahymena</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-Preparation-of-Tetrahymena-Imaging-Buffer"><span class="toc-number">3.6.1.</span> <span class="toc-text">1. Preparation of Tetrahymena Imaging Buffer</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-Preparation-of-0-1-Triton-X-100-in-TIB"><span class="toc-number">3.6.2.</span> <span class="toc-text">2. Preparation of 0.1% Triton X-100 in TIB</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-Experimental-Groups-and-Controls"><span class="toc-number">3.6.3.</span> <span class="toc-text">3. Experimental Groups and Controls</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-Low-Speed-Collection-of-Tetrahymena"><span class="toc-number">3.6.4.</span> <span class="toc-text">4. Low-Speed Collection of Tetrahymena</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-Washing-with-TIB"><span class="toc-number">3.6.5.</span> <span class="toc-text">5. Washing with TIB</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#First-Wash"><span class="toc-number">3.6.5.1.</span> <span class="toc-text">First Wash</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Second-Wash"><span class="toc-number">3.6.5.2.</span> <span class="toc-text">Second Wash</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-Resuspension-and-Triton-Lysis"><span class="toc-number">3.6.6.</span> <span class="toc-text">6. Resuspension and Triton Lysis</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-Separation-of-S20-and-P20-Fractions"><span class="toc-number">3.6.7.</span> <span class="toc-text">7. Separation of S20 and P20 Fractions</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#S20-Supernatant"><span class="toc-number">3.6.7.1.</span> <span class="toc-text">S20 Supernatant</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#P20-Pellet"><span class="toc-number">3.6.7.2.</span> <span class="toc-text">P20 Pellet</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-VI-ACP-Activity-Assay"><span class="toc-number">3.7.</span> <span class="toc-text">Part VI. ACP Activity Assay</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#8-ACP-Activity-Assay"><span class="toc-number">3.7.1.</span> <span class="toc-text">8. ACP Activity Assay</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#References-1"><span class="toc-number">3.8.</span> <span class="toc-text">References</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Construction-of-pYES2-LLO-and-Transformation-into-Yeast"><span class="toc-number">4.</span> <span class="toc-text">Construction of pYES2-LLO and Transformation into Yeast</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Purpose-1"><span class="toc-number">4.1.</span> <span class="toc-text">Purpose</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Materials-1"><span class="toc-number">4.2.</span> <span class="toc-text">Materials</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#DNA-and-Enzymes"><span class="toc-number">4.2.1.</span> <span class="toc-text">DNA and Enzymes</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DNA-Purification-and-Electrophoresis"><span class="toc-number">4.2.2.</span> <span class="toc-text">DNA Purification and Electrophoresis</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Yeast-Transformation"><span class="toc-number">4.2.3.</span> <span class="toc-text">Yeast Transformation</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Before-Starting"><span class="toc-number">4.3.</span> <span class="toc-text">Before Starting</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-I-Double-Digestion-of-pYES2-and-the-LLO-Insert"><span class="toc-number">4.4.</span> <span class="toc-text">Part I. Double Digestion of pYES2 and the LLO Insert</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-Digestion-Reaction-Setup"><span class="toc-number">4.4.1.</span> <span class="toc-text">1. Digestion Reaction Setup</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-II-Agarose-Gel-Electrophoresis-and-DNA-Recovery"><span class="toc-number">4.5.</span> <span class="toc-text">Part II. Agarose Gel Electrophoresis and DNA Recovery</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-III-Ligation-of-the-LLO-Insert-into-pYES2"><span class="toc-number">4.6.</span> <span class="toc-text">Part III. Ligation of the LLO Insert into pYES2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-Ligation-Reaction-Setup"><span class="toc-number">4.6.1.</span> <span class="toc-text">1. Ligation Reaction Setup</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-IV-Preparation-of-Yeast-Competent-Cells"><span class="toc-number">4.7.</span> <span class="toc-text">Part IV. Preparation of Yeast Competent Cells</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Part-V-Transformation-of-the-Ligation-Product-into-Yeast"><span class="toc-number">4.8.</span> <span class="toc-text">Part V. Transformation of the Ligation Product into Yeast</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Reference"><span class="toc-number">4.9.</span> <span class="toc-text">Reference</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tetrahymena-Culture-Passaging-Counting-and-Standardization"><span class="toc-number">5.</span> <span class="toc-text">Tetrahymena Culture, Passaging, Counting, and Standardization</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Tetrahymena-Culture"><span class="toc-number">5.1.</span> <span class="toc-text">1. Tetrahymena Culture</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-Purpose"><span class="toc-number">5.1.1.</span> <span class="toc-text">1.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-Materials"><span class="toc-number">5.1.2.</span> <span class="toc-text">1.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-Procedure"><span class="toc-number">5.1.3.</span> <span class="toc-text">1.3 Procedure</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Tetrahymena-Passaging-and-Culture-Expansion"><span class="toc-number">5.2.</span> <span class="toc-text">2. Tetrahymena Passaging and Culture Expansion</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-Purpose"><span class="toc-number">5.2.1.</span> <span class="toc-text">2.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-Materials"><span class="toc-number">5.2.2.</span> <span class="toc-text">2.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-Procedure"><span class="toc-number">5.2.3.</span> <span class="toc-text">2.3 Procedure</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Tetrahymena-Cell-Counting"><span class="toc-number">5.3.</span> <span class="toc-text">3. Tetrahymena Cell Counting</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-Purpose"><span class="toc-number">5.3.1.</span> <span class="toc-text">3.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-Materials"><span class="toc-number">5.3.2.</span> <span class="toc-text">3.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-Procedure"><span class="toc-number">5.3.3.</span> <span class="toc-text">3.3 Procedure</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Pre-experimental-Standardization-of-Tetrahymena-Cultures"><span class="toc-number">5.4.</span> <span class="toc-text">4. Pre-experimental Standardization of Tetrahymena Cultures</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-Purpose"><span class="toc-number">5.4.1.</span> <span class="toc-text">4.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-2-Materials"><span class="toc-number">5.4.2.</span> <span class="toc-text">4.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-3-Procedure"><span class="toc-number">5.4.3.</span> <span class="toc-text">4.3 Procedure</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Auxotrophic-Yeast-Culture-Selection-Storage-and-Growth-Monitoring"><span class="toc-number">6.</span> <span class="toc-text">Auxotrophic Yeast Culture, Selection, Storage, and Growth Monitoring</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Routine-Culture-of-Auxotrophic-W303-Yeast"><span class="toc-number">6.1.</span> <span class="toc-text">1. Routine Culture of Auxotrophic W303 Yeast</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-Purpose-1"><span class="toc-number">6.1.1.</span> <span class="toc-text">1.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-Materials-1"><span class="toc-number">6.1.2.</span> <span class="toc-text">1.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-YPD-Medium-Composition"><span class="toc-number">6.1.3.</span> <span class="toc-text">1.3 YPD Medium Composition</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-4-YPD-Preparation"><span class="toc-number">6.1.4.</span> <span class="toc-text">1.4 YPD Preparation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-5-Liquid-Culture-Procedure"><span class="toc-number">6.1.5.</span> <span class="toc-text">1.5 Liquid Culture Procedure</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-6-Solid-Culture-Procedure"><span class="toc-number">6.1.6.</span> <span class="toc-text">1.6 Solid Culture Procedure</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Preparation-of-Synthetic-Defined-Media"><span class="toc-number">6.2.</span> <span class="toc-text">2. Preparation of Synthetic Defined Media</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-Purpose-1"><span class="toc-number">6.2.1.</span> <span class="toc-text">2.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-Materials-1"><span class="toc-number">6.2.2.</span> <span class="toc-text">2.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-SD-Ura-Medium"><span class="toc-number">6.2.3.</span> <span class="toc-text">2.3 SD-Ura Medium</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-SD-Trp-Medium"><span class="toc-number">6.2.4.</span> <span class="toc-text">2.4 SD-Trp Medium</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-5-Preparation-of-40-Glucose-Solution"><span class="toc-number">6.2.5.</span> <span class="toc-text">2.5 Preparation of 40% Glucose Solution</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-SD-Ura-Preparation"><span class="toc-number">6.2.6.</span> <span class="toc-text">2.6 SD-Ura Preparation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-7-SD-Trp-Preparation"><span class="toc-number">6.2.7.</span> <span class="toc-text">2.7 SD-Trp Preparation</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Yeast-Selection-and-Single-Colony-Expansion"><span class="toc-number">6.3.</span> <span class="toc-text">3. Yeast Selection and Single-Colony Expansion</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-Purpose-1"><span class="toc-number">6.3.1.</span> <span class="toc-text">3.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-Materials-1"><span class="toc-number">6.3.2.</span> <span class="toc-text">3.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-Post-Transformation-Selection"><span class="toc-number">6.3.3.</span> <span class="toc-text">3.3 Post-Transformation Selection</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-4-Single-Colony-Isolation"><span class="toc-number">6.3.4.</span> <span class="toc-text">3.4 Single-Colony Isolation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-5-Liquid-Expansion"><span class="toc-number">6.3.5.</span> <span class="toc-text">3.5 Liquid Expansion</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-6-Maintenance-of-Phenotypic-Stability"><span class="toc-number">6.3.6.</span> <span class="toc-text">3.6 Maintenance of Phenotypic Stability</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Yeast-Glycerol-Stock-Preparation-and-Recovery"><span class="toc-number">6.4.</span> <span class="toc-text">4. Yeast Glycerol Stock Preparation and Recovery</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-Purpose-1"><span class="toc-number">6.4.1.</span> <span class="toc-text">4.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-2-Materials-1"><span class="toc-number">6.4.2.</span> <span class="toc-text">4.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-3-Freezing-Solution"><span class="toc-number">6.4.3.</span> <span class="toc-text">4.3 Freezing Solution</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-4-Glycerol-Stock-Preparation"><span class="toc-number">6.4.4.</span> <span class="toc-text">4.4 Glycerol Stock Preparation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-5-Recovery"><span class="toc-number">6.4.5.</span> <span class="toc-text">4.5 Recovery</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-Monitoring-Yeast-Growth"><span class="toc-number">6.5.</span> <span class="toc-text">5. Monitoring Yeast Growth</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#5-1-Purpose"><span class="toc-number">6.5.1.</span> <span class="toc-text">5.1 Purpose</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-2-Materials"><span class="toc-number">6.5.2.</span> <span class="toc-text">5.2 Materials</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-3-OD600-Measurement"><span class="toc-number">6.5.3.</span> <span class="toc-text">5.3 OD600 Measurement</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-4-Dilution-Procedure"><span class="toc-number">6.5.4.</span> <span class="toc-text">5.4 Dilution Procedure</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-5-Growth-Curve-Procedure"><span class="toc-number">6.5.5.</span> <span class="toc-text">5.5 Growth Curve Procedure</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-6-Growth-Rate-Calculation"><span class="toc-number">6.5.6.</span> <span class="toc-text">5.6 Growth Rate Calculation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-7-Comparison-of-Growth-Conditions"><span class="toc-number">6.5.7.</span> <span class="toc-text">5.7 Comparison of Growth Conditions</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#References-2"><span class="toc-number">6.6.</span> <span class="toc-text">References</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/llo-protocols/" title="protocols">protocols</a><time datetime="2026-10-03T09:19:39.141Z" title="Created 2026-10-03 17:19:39">2026-10-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/DBTLs/" title="Untitled">Untitled</a><time datetime="2026-10-03T08:37:31.174Z" title="Created 2026-10-03 16:37:31">2026-10-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/%E5%90%8A%E6%A1%A5/" title="吊桥"><img src="/img/cover_turihashi.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="吊桥"/></a><div class="content"><a class="title" href="/posts/%E5%90%8A%E6%A1%A5/" title="吊桥">吊桥</a><time datetime="2026-08-25T16:00:00.000Z" title="Created 2026-08-26 00:00:00">2026-08-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/%E8%8A%B1%E9%B3%A5%E9%A2%A8%E6%9C%88/" title="花鳥風月"><img src="/img/cover_hana.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="花鳥風月"/></a><div class="content"><a class="title" href="/posts/%E8%8A%B1%E9%B3%A5%E9%A2%A8%E6%9C%88/" title="花鳥風月">花鳥風月</a><time datetime="2026-08-03T16:00:00.000Z" title="Created 2026-08-04 00:00:00">2026-08-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/%E5%AE%BF%E5%A3%B0%EF%BC%8C%E5%92%8C%E9%82%A3%E4%B9%8B%E5%89%8D/" title="宿声，和那之前"><img src="/img/kaf.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="宿声，和那之前"/></a><div class="content"><a class="title" href="/posts/%E5%AE%BF%E5%A3%B0%EF%BC%8C%E5%92%8C%E9%82%A3%E4%B9%8B%E5%89%8D/" title="宿声，和那之前">宿声，和那之前</a><time datetime="2026-06-07T16:00:00.000Z" title="Created 2026-06-08 00:00:00">2026-06-08</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By Yuuzuki Hanashiro</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"></div><script async data-pjax src="/"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading Database</span></div><div class="local-search-input"><input placeholder="Search for Posts" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.2"></script></div></div></body></html>
